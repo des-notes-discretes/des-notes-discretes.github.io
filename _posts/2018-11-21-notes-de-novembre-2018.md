@@ -33,7 +33,7 @@ rendu est moins bon. Voir [cet article de texblog](https://texblog.org/2008/10/1
 pour un exemple. 
 
 
-# Série de séminaire «Graph Theory in Paris»
+# Série de séminaires «Graph Theory in Paris»
 
 Une [série de séminaires de graphes](https://www.irif.fr/gtp/index) commence 
 le 23 novembre.
