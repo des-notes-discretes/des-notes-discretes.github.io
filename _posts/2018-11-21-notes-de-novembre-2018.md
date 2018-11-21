@@ -9,7 +9,7 @@ Quelques notes et liens de novembre 2018.
 
 ---
 
-# Couplages probabilistes sur *Images de maths*
+# Couplages probabilistes sur «Images de maths»
 
 Le site *[Images des maths](http://images.math.cnrs.fr)* du CNRS (que j'avais 
 évoqué [ici](https://semidoc.github.io/mags)) publie, entre autres, des 
@@ -23,7 +23,7 @@ utilisait allègrement ce concept
 présenté à la conférence [DISC](http://www.disc-conference.org/wp/disc2018/)).
 
 
-# Environnement *description* en latex
+# Environnement «description» en latex
 
 Ce n'est pas nouveau mais c'est peu connu et bien utile : en plus de *itemize* et
 *enumerate*, latex possède un troisième type de liste, *description*. 
@@ -33,7 +33,7 @@ rendu est moins bon. Voir [cet article de texblog](https://texblog.org/2008/10/1
 pour un exemple. 
 
 
-# Série de séminaire *Graph Theory in Paris*
+# Série de séminaire «Graph Theory in Paris»
 
 Une [série de séminaires de graphes](https://www.irif.fr/gtp/index) commence 
 le 23 novembre.
