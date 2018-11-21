@@ -7,6 +7,89 @@
     <atom:link href="https://des-notes-discretes.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Notes de novembre</title>
+        <description>&lt;p&gt;Quelques notes et liens de novembre 2018.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;couplages-probabilistes-sur-images-de-maths&quot;&gt;Couplages probabilistes sur &lt;em&gt;Images de maths&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Le site &lt;em&gt;&lt;a href=&quot;http://images.math.cnrs.fr&quot;&gt;Images des maths&lt;/a&gt;&lt;/em&gt; du CNRS (que j’avais 
+évoqué &lt;a href=&quot;https://semidoc.github.io/mags&quot;&gt;ici&lt;/a&gt;) publie, entre autres, des 
+articles de vulgarisation de niveau universitaire, et cette fois c’est sur la 
+notion de couplage en probabilité. 
+Ça tombe bien, je voulais justement en apprendre plus sur 
+le sujet, après un exposé de 
+&lt;a href=&quot;http://people.inf.ethz.ch/fiscmanu/&quot;&gt;Manuela Fischer&lt;/a&gt; qui 
+utilisait allègrement ce concept 
+(&lt;a href=&quot;http://drops.dagstuhl.de/opus/volltexte/2018/9815/pdf/LIPIcs-DISC-2018-26.pdf&quot;&gt;ce papier&lt;/a&gt;
+présenté à la conférence &lt;a href=&quot;http://www.disc-conference.org/wp/disc2018/&quot;&gt;DISC&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h1 id=&quot;environnement-description-en-latex&quot;&gt;Environnement &lt;em&gt;description&lt;/em&gt; en latex&lt;/h1&gt;
+
+&lt;p&gt;Ce n’est pas nouveau mais c’est peu connu et bien utile : en plus de &lt;em&gt;itemize&lt;/em&gt; et
+&lt;em&gt;enumerate&lt;/em&gt;, latex possède un troisième type de liste, &lt;em&gt;description&lt;/em&gt;. 
+Ce mode est utile lorsque les choses à lister n’ont pas d’ordre défini, mais des 
+titres. On peut aussi utiliser &lt;em&gt;itemize&lt;/em&gt; en forçant les noms de items, mais le 
+rendu est moins bon. Voir &lt;a href=&quot;https://texblog.org/2008/10/16/lists-enumerate-itemize-description-and-how-to-change-them/&quot;&gt;cet article de texblog&lt;/a&gt; 
+pour un exemple.&lt;/p&gt;
+
+&lt;h1 id=&quot;srie-de-sminaire-graph-theory-in-paris&quot;&gt;Série de séminaire &lt;em&gt;Graph Theory in Paris&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Une &lt;a href=&quot;https://www.irif.fr/gtp/index&quot;&gt;série de séminaires de graphes&lt;/a&gt; commence 
+le 23 novembre.
+Le but (louable) est de rassembler la communauté graphes d’Île-de-France.&lt;/p&gt;
+
+&lt;h1 id=&quot;carte-de-la-thorie-du-calcul-distribu&quot;&gt;Carte de la théorie du calcul distribué&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://users.ics.aalto.fi/suomela/&quot;&gt;Jukka Suomela&lt;/a&gt; a publié 
+&lt;a href=&quot;https://plus.google.com/+JukkaSuomela/posts/JgWYFk4XzWW&quot;&gt;une carte&lt;/a&gt; très lisible 
+de la communauté PODC/DISC (théorie du calcul distribué) en faisant des liens entre 
+les chercheurs qui ont été co-auteurs plusieurs fois, ou dont les travaux ont été
+présentés plusieurs fois dans la même session. Sans surprise il y a plusieurs
+clusters assez séparés.&lt;/p&gt;
+
+&lt;h1 id=&quot;modlisation-dincertitudes&quot;&gt;Modélisation d’incertitudes&lt;/h1&gt;
+
+&lt;p&gt;J’ai assisté à un exposé de 
+&lt;a href=&quot;http://www.lsta.upmc.fr/bousquet/&quot;&gt;Nicolas Bousquet&lt;/a&gt; à propos de 
+modélisation, de probabilités et d’épistémologie. En gros la question était : 
+est-il bien raisonnable de modéliser toutes les incertitudes par des 
+probabilités? Deux éléments que j’ai retenu:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Si on définit une théorie de la &lt;em&gt;plausibilité&lt;/em&gt;, en mettant des règles naturelles
+pour ce qui est plus ou moins plausible en fonction des données etc. on retombe 
+généralement sur une théorie «isomorphe» à celle des probabilités, par le 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Cox-Jaynes&quot;&gt;théorème de Cox-Jaynes&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;On peut utiliser la 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Complexit%C3%A9_de_Kolmogorov&quot;&gt;complexité de Kolmogorov&lt;/a&gt; 
+pour justifier l’emploi de probabilités en modélisation. Si une suite de valeurs 
+d’erreurs ne peut pas être compressées alors elle est en quelque sorte 
+aléatoire. L’exposé évoquait aussi l’indécidabilité de certaines propriétés.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;nouvelles-fonctionnalits-pour-arxiv-et-dblp&quot;&gt;«Nouvelles» fonctionnalités pour arXiv et DBLP&lt;/h1&gt;
+
+&lt;p&gt;Je n’ai réalisé que récemment que &lt;a href=&quot;https://arxiv.org/&quot;&gt;Arxiv&lt;/a&gt; et 
+&lt;a href=&quot;https://dblp.uni-trier.de/&quot;&gt;DBLP&lt;/a&gt; faisaient plus que ce que je ne 
+pensais ; évitant une partie des aller-retours pénibles sur google scholar.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;arXiv fait des liens vers les articles cités et vers les articles citant le 
+papier que l’on regarde. (Voir par exemple la &lt;a href=&quot;https://arxiv.org/abs/1802.06676&quot;&gt;page&lt;/a&gt;
+de l’article cité plus haut qui utilise les couplages probabilistes).&lt;/li&gt;
+  &lt;li&gt;DBLP permet la recherche d’articles par leurs titres (et non seulement la 
+recherche d’auteurs).&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 21 Nov 2018 00:00:00 +0100</pubDate>
+        <link>https://des-notes-discretes.github.io///notes-de-novembre-2018</link>
+        <guid isPermaLink="true">https://des-notes-discretes.github.io///notes-de-novembre-2018</guid>
+      </item>
+    
+      <item>
         <title>Blogs d'informatique théorique, le retour</title>
         <description>&lt;p&gt;Sur le blog des doctorants de l’&lt;a href=&quot;http://www.irif.fr&quot;&gt;IRIF&lt;/a&gt;, 
 &lt;a href=&quot;semidoc.github.io&quot;&gt;semidoc&lt;/a&gt;, j’avais fait 

@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://des-notes-discretes.github.io/</loc>
-    <lastmod>2018-11-15T16:52:26+01:00</lastmod>
+    <lastmod>2018-11-21T17:23:06+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  
+    <url>
+      <loc>https://des-notes-discretes.github.io//notes-de-novembre-2018</loc>
+      
+        <lastmod>2018-11-21T00:00:00+01:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
   
     <url>
       <loc>https://des-notes-discretes.github.io//blogs</loc>
@@ -29,7 +38,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//404/</loc>
     
-      <lastmod>2018-11-15</lastmod>
+      <lastmod>2018-11-21</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -42,7 +51,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//about/</loc>
     
-      <lastmod>2018-11-15</lastmod>
+      <lastmod>2018-11-21</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -55,7 +64,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//archive/</loc>
     
-      <lastmod>2018-11-15</lastmod>
+      <lastmod>2018-11-21</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -68,7 +77,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//feed.xml</loc>
     
-      <lastmod>2018-11-15</lastmod>
+      <lastmod>2018-11-21</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -81,7 +90,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//</loc>
     
-      <lastmod>2018-11-15</lastmod>
+      <lastmod>2018-11-21</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -94,7 +103,20 @@
   <url>
     <loc>https://des-notes-discretes.github.io//page2/</loc>
     
-      <lastmod>2018-11-15</lastmod>
+      <lastmod>2018-11-21</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>https://des-notes-discretes.github.io//page3/</loc>
+    
+      <lastmod>2018-11-21</lastmod>
     
     
       <changefreq>monthly</changefreq>
