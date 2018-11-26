@@ -12,7 +12,7 @@
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;couplages-probabilistes-sur-images-de-maths&quot;&gt;Couplages probabilistes sur &lt;em&gt;Images de maths&lt;/em&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;couplages-probabilistes-sur-images-de-maths&quot;&gt;Couplages probabilistes sur «Images de maths»&lt;/h1&gt;
 
 &lt;p&gt;Le site &lt;em&gt;&lt;a href=&quot;http://images.math.cnrs.fr&quot;&gt;Images des maths&lt;/a&gt;&lt;/em&gt; du CNRS (que j’avais 
 évoqué &lt;a href=&quot;https://semidoc.github.io/mags&quot;&gt;ici&lt;/a&gt;) publie, entre autres, des 
@@ -25,7 +25,7 @@ utilisait allègrement ce concept
 (&lt;a href=&quot;http://drops.dagstuhl.de/opus/volltexte/2018/9815/pdf/LIPIcs-DISC-2018-26.pdf&quot;&gt;ce papier&lt;/a&gt;
 présenté à la conférence &lt;a href=&quot;http://www.disc-conference.org/wp/disc2018/&quot;&gt;DISC&lt;/a&gt;).&lt;/p&gt;
 
-&lt;h1 id=&quot;environnement-description-en-latex&quot;&gt;Environnement &lt;em&gt;description&lt;/em&gt; en latex&lt;/h1&gt;
+&lt;h1 id=&quot;environnement-description-en-latex&quot;&gt;Environnement «description» en latex&lt;/h1&gt;
 
 &lt;p&gt;Ce n’est pas nouveau mais c’est peu connu et bien utile : en plus de &lt;em&gt;itemize&lt;/em&gt; et
 &lt;em&gt;enumerate&lt;/em&gt;, latex possède un troisième type de liste, &lt;em&gt;description&lt;/em&gt;. 
@@ -34,7 +34,7 @@ titres. On peut aussi utiliser &lt;em&gt;itemize&lt;/em&gt; en forçant les noms
 rendu est moins bon. Voir &lt;a href=&quot;https://texblog.org/2008/10/16/lists-enumerate-itemize-description-and-how-to-change-them/&quot;&gt;cet article de texblog&lt;/a&gt; 
 pour un exemple.&lt;/p&gt;
 
-&lt;h1 id=&quot;srie-de-sminaire-graph-theory-in-paris&quot;&gt;Série de séminaire &lt;em&gt;Graph Theory in Paris&lt;/em&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;srie-de-sminaires-graph-theory-in-paris&quot;&gt;Série de séminaires «Graph Theory in Paris»&lt;/h1&gt;
 
 &lt;p&gt;Une &lt;a href=&quot;https://www.irif.fr/gtp/index&quot;&gt;série de séminaires de graphes&lt;/a&gt; commence 
 le 23 novembre.

@@ -56,7 +56,7 @@ J'ai assisté à un exposé de
 [Nicolas Bousquet](http://www.lsta.upmc.fr/bousquet/) à propos de 
 modélisation, de probabilités et d'épistémologie. En gros la question était : 
 est-il bien raisonnable de modéliser toutes les incertitudes par des 
-probabilités? Deux éléments que j'ai retenu: 
+probabilités? Deux éléments que j'ai retenus: 
 
 * Si on définit une théorie de la *plausibilité*, en mettant des règles naturelles
 pour ce qui est plus ou moins plausible en fonction des données etc. on retombe 
