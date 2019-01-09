@@ -110,7 +110,7 @@ Lipton et Regan parle de la
 (et de pourquoi c'est une métrique) dans
 [un billet](https://rjlipton.wordpress.com/2018/12/14/explaining-the-jaccard-metric/)
 de leur blog, *Gödel's lost letter*. Je ne connaissais pas cette distance sur 
-les ensemble. Voici la définition : 
+les ensembles. Voici la définition : 
 
 Soit $A$ et $B$ deux ensembles, leur distance est :
 $$d(A,B)=1-\frac{|A \cap B|}{|A \cup B|}.$$
