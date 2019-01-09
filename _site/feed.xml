@@ -7,12 +7,133 @@
     <atom:link href="https://des-notes-discretes.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Notes de décembre</title>
+        <description>&lt;p&gt;Quelques notes de décembre avec un peu de retard. Bonne année !&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/etoile.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;coloriage-de-graphe-pdagogique&quot;&gt;Coloriage de graphe pédagogique&lt;/h2&gt;
+&lt;p&gt;Un 
+&lt;a href=&quot;http://images.math.cnrs.fr/Jeux-sur-graphes.html?lang=fr&quot;&gt;article sur Images des Maths&lt;/a&gt;, 
+par Alain Busser, parle de l’introduction de problème de coloriage de graphes à 
+des enfants de maternelle, sous forme de jeux simples. Il est assez paradoxal de
+voir à quel point ces notions sont naturelles et fun, sachant qu’elles arrivent 
+très tard dans le cursus scolaire (en ce qui me concerne au niveau L2/L3).&lt;/p&gt;
+
+&lt;h2 id=&quot;le-livre-pim-et-la-programmation-efficace&quot;&gt;Le livre PIM, et la programmation efficace&lt;/h2&gt;
+
+&lt;p&gt;Comme déjà dit &lt;a href=&quot;./blogs&quot;&gt;ici&lt;/a&gt;, je lis le blog 
+&lt;a href=&quot;https://jeremykun.com/&quot;&gt;Math $\cap$ Programming&lt;/a&gt;
+de Jeremy Kun, et j’apprécie son approche rigoureuse théoriquement, mais appuyée 
+sur la programmation. L’auteur sort un livre dans cette optique (en anglais) : 
+&lt;a href=&quot;https://pimbook.org/&quot;&gt;A Programmer’s Introduction to Mathematics&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cette façon de voir l’algorithmique se rapproche un peu de 
+des compétitions de programmation/algorithmique, comme 
+l’&lt;a href=&quot;https://icpc.baylor.edu/&quot;&gt;ICPC&lt;/a&gt; organisée par l’ACM. Je n’ai jamais 
+participé à une telle compétition, et l’aspect concours ne m’enchante pas, 
+mais trouver un compromis entre la qualité de la 
+solution et le temps pour la trouver me semble très intéressant. 
+De ce point de vue, je crois que le terme 
+«programmation efficace», comme dans 
+&lt;a href=&quot;http://tryalgo.org/book/&quot;&gt;le livre de Dürr et Vie&lt;/a&gt; est bien trouvé.&lt;/p&gt;
+
+&lt;h2 id=&quot;mouvements-de-reidemeister&quot;&gt;Mouvements de Reidemeister&lt;/h2&gt;
+
+&lt;p&gt;La &lt;a href=&quot;https://fr.wikipedia.org/wiki/Théorie_des_nœuds&quot;&gt;théorie des nœuds&lt;/a&gt; 
+mathématise la notion de nœud, notamment avec des mouvements élémentaires, par 
+exemple faire une boucle ou croiser deux brins.&lt;/p&gt;
+
+&lt;p&gt;Les 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Mouvements_de_Reidemeister&quot;&gt;mouvements de Reidemeister&lt;/a&gt;
+sont des mouvements particuliers, qui ont la particularité de ne pas changer la 
+nature du nœud. C’est très parlant sur les images de l’article wikipedia lié 
+ci-dessus. Étant donné deux nœuds équivalents, on peut toujours passer de l’un 
+à l’autre par ces mouvements. Le nombre de mouvements peut être borné par une 
+fonction astronomique du nombre de croisements.&lt;/p&gt;
+
+&lt;p&gt;(Je suis tombé sur ce concept par hasard en me baladant sur arxiv.)&lt;/p&gt;
+
+&lt;h2 id=&quot;vido-des-tasses&quot;&gt;Vidéo des tasses&lt;/h2&gt;
+&lt;p&gt;Une 
+&lt;a href=&quot;https://www.youtube.com/watch?v=9N1aYy8Q9jo&amp;amp;feature=youtu.be&quot;&gt;très bonne vidéo&lt;/a&gt; 
+de Tadashi Tokieda qui parle, comme à son habitude, d’un 
+problème de la vie courante et de maths.&lt;/p&gt;
+
+&lt;h2 id=&quot;algorithme-darbre-couvrant-minimum-tout-en-un&quot;&gt;Algorithme d’arbre couvrant minimum tout-en-un&lt;/h2&gt;
+
+&lt;p&gt;Considérons l’algorithme suivant pour construire un 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Arbre_couvrant_de_poids_minimal&quot;&gt;arbre couvrant de poids minimum&lt;/a&gt;
+(assez proche de 
+l’&lt;a href=&quot;https://fr.wikipedia.org/wiki/Algorithme_de_Bor%C5%AFvka&quot;&gt;algorithme de Borůvka&lt;/a&gt;).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tous les nœuds commencent en étant ce que l’on appelle des «fragments».&lt;/li&gt;
+  &lt;li&gt;Tant qu’il y a plusieurs fragments: (1) choisir arbitrairement un fragment, 
+(2) trouver une arête ayant exactement une extrémité  dans le fragment, et étant de 
+poids minimum parmi celles ayant cette propriété, (3) fusionner les deux 
+fragments en ajoutant cette arête.&lt;/li&gt;
+  &lt;li&gt;Renvoyer le fragment final.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cet algorithme généralise à la fois les algorithmes 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Algorithme_de_Prim&quot;&gt;de Prim&lt;/a&gt;, 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Algorithme_de_Kruskal&quot;&gt;de Kruskal&lt;/a&gt; et 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Algorithme_de_Bor%C5%AFvka&quot;&gt;de Borůvka&lt;/a&gt; ! 
+Pour l’algorithme de Borůvka, on choisit l’arête sortante de tous les fragments 
+en même temps (avec la subtilité qu’il faut éviter les cycles). Pour 
+l’algorithme de Prim, on choisit toujours le même fragment à agrandir. Enfin 
+pour l’algorithme de Kruskal, on choisit le fragment qui a l’arête sortante la 
+plus légère.&lt;/p&gt;
+
+&lt;p&gt;On peut sans doute voir cet algorithme comme une application des règles rouge 
+et bleu, mais j’aime bien ce point de vue avec un planificateur qui choisit le
+fragment selon différentes stratégies.&lt;/p&gt;
+
+&lt;p&gt;(Je travaille de nouveau sur un problème d’arbre couvrant, ce qui m’a fait 
+repenser à ce petit résultat que j’avais lu en travaillant sur 
+&lt;a href=&quot;https://pages.lip6.fr/Laurent.Feuilloley/publications/error_sensitive.html&quot;&gt;ce papier&lt;/a&gt;,
+mais dont je n’ai croisé qu’une fois.)&lt;/p&gt;
+
+&lt;h2 id=&quot;espaces-en-latex&quot;&gt;Espaces en latex&lt;/h2&gt;
+
+&lt;p&gt;Deux choses basiques de latex que j’ai apprises récemment, à propos des espaces 
+verticaux.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Au lieu de faire un &lt;code&gt;\vspace{3cm}&lt;/code&gt;, on peut simplement passer à la ligne avec un 
+paramètre : &lt;code&gt;\\[3 cm]&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;On peut changer l’espace entre les items d’une liste en utilisant &lt;code&gt;itemsep&lt;/code&gt;. 
+Par exemple: &lt;code&gt;\setlength\itemsep{1em}&lt;/code&gt; juste après un &lt;code&gt;\begin{itemize}&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;distance-de-jaccard&quot;&gt; Distance de jaccard&lt;/h2&gt;
+
+&lt;p&gt;Lipton et Regan parle de la 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Indice_et_distance_de_Jaccard&quot;&gt;distance de Jaccard&lt;/a&gt; 
+(et de pourquoi c’est une métrique) dans
+&lt;a href=&quot;https://rjlipton.wordpress.com/2018/12/14/explaining-the-jaccard-metric/&quot;&gt;un billet&lt;/a&gt;
+de leur blog, &lt;em&gt;Gödel’s lost letter&lt;/em&gt;. Je ne connaissais pas cette distance sur 
+les ensembles. Voici la définition :&lt;/p&gt;
+
+&lt;p&gt;Soit $A$ et $B$ deux ensembles, leur distance est :
+&lt;script type=&quot;math/tex&quot;&gt;d(A,B)=1-\frac{|A \cap B|}{|A \cup B|}.&lt;/script&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 09 Jan 2019 00:00:00 +0100</pubDate>
+        <link>https://des-notes-discretes.github.io///notes-de-decembre-2018</link>
+        <guid isPermaLink="true">https://des-notes-discretes.github.io///notes-de-decembre-2018</guid>
+      </item>
+    
+      <item>
         <title>Notes de novembre</title>
         <description>&lt;p&gt;Quelques notes et liens de novembre 2018.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;couplages-probabilistes-sur-images-de-maths&quot;&gt;Couplages probabilistes sur «Images de maths»&lt;/h1&gt;
+&lt;h2 id=&quot;couplages-probabilistes-sur-images-de-maths&quot;&gt;Couplages probabilistes sur «Images de maths»&lt;/h2&gt;
 
 &lt;p&gt;Le site &lt;em&gt;&lt;a href=&quot;http://images.math.cnrs.fr&quot;&gt;Images des maths&lt;/a&gt;&lt;/em&gt; du CNRS (que j’avais 
 évoqué &lt;a href=&quot;https://semidoc.github.io/mags&quot;&gt;ici&lt;/a&gt;) publie, entre autres, des 
@@ -25,7 +146,7 @@ utilisait allègrement ce concept
 (&lt;a href=&quot;http://drops.dagstuhl.de/opus/volltexte/2018/9815/pdf/LIPIcs-DISC-2018-26.pdf&quot;&gt;ce papier&lt;/a&gt;
 présenté à la conférence &lt;a href=&quot;http://www.disc-conference.org/wp/disc2018/&quot;&gt;DISC&lt;/a&gt;).&lt;/p&gt;
 
-&lt;h1 id=&quot;environnement-description-en-latex&quot;&gt;Environnement «description» en latex&lt;/h1&gt;
+&lt;h2 id=&quot;environnement-description-en-latex&quot;&gt;Environnement «description» en latex&lt;/h2&gt;
 
 &lt;p&gt;Ce n’est pas nouveau mais c’est peu connu et bien utile : en plus de &lt;em&gt;itemize&lt;/em&gt; et
 &lt;em&gt;enumerate&lt;/em&gt;, latex possède un troisième type de liste, &lt;em&gt;description&lt;/em&gt;. 
@@ -34,13 +155,13 @@ titres. On peut aussi utiliser &lt;em&gt;itemize&lt;/em&gt; en forçant les noms
 rendu est moins bon. Voir &lt;a href=&quot;https://texblog.org/2008/10/16/lists-enumerate-itemize-description-and-how-to-change-them/&quot;&gt;cet article de texblog&lt;/a&gt; 
 pour un exemple.&lt;/p&gt;
 
-&lt;h1 id=&quot;srie-de-sminaires-graph-theory-in-paris&quot;&gt;Série de séminaires «Graph Theory in Paris»&lt;/h1&gt;
+&lt;h2 id=&quot;srie-de-sminaires-graph-theory-in-paris&quot;&gt;Série de séminaires «Graph Theory in Paris»&lt;/h2&gt;
 
 &lt;p&gt;Une &lt;a href=&quot;https://www.irif.fr/gtp/index&quot;&gt;série de séminaires de graphes&lt;/a&gt; commence 
 le 23 novembre.
 Le but (louable) est de rassembler la communauté graphes d’Île-de-France.&lt;/p&gt;
 
-&lt;h1 id=&quot;carte-de-la-thorie-du-calcul-distribu&quot;&gt;Carte de la théorie du calcul distribué&lt;/h1&gt;
+&lt;h2 id=&quot;carte-de-la-thorie-du-calcul-distribu&quot;&gt;Carte de la théorie du calcul distribué&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://users.ics.aalto.fi/suomela/&quot;&gt;Jukka Suomela&lt;/a&gt; a publié 
 &lt;a href=&quot;https://plus.google.com/+JukkaSuomela/posts/JgWYFk4XzWW&quot;&gt;une carte&lt;/a&gt; très lisible 
@@ -49,13 +170,13 @@ les chercheurs qui ont été co-auteurs plusieurs fois, ou dont les travaux ont 
 présentés plusieurs fois dans la même session. Sans surprise il y a plusieurs
 clusters assez séparés.&lt;/p&gt;
 
-&lt;h1 id=&quot;modlisation-dincertitudes&quot;&gt;Modélisation d’incertitudes&lt;/h1&gt;
+&lt;h2 id=&quot;modlisation-dincertitudes&quot;&gt;Modélisation d’incertitudes&lt;/h2&gt;
 
 &lt;p&gt;J’ai assisté à un exposé de 
 &lt;a href=&quot;http://www.lsta.upmc.fr/bousquet/&quot;&gt;Nicolas Bousquet&lt;/a&gt; à propos de 
 modélisation, de probabilités et d’épistémologie. En gros la question était : 
 est-il bien raisonnable de modéliser toutes les incertitudes par des 
-probabilités? Deux éléments que j’ai retenu:&lt;/p&gt;
+probabilités? Deux éléments que j’ai retenus:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Si on définit une théorie de la &lt;em&gt;plausibilité&lt;/em&gt;, en mettant des règles naturelles
@@ -69,7 +190,7 @@ d’erreurs ne peut pas être compressées alors elle est en quelque sorte
 aléatoire. L’exposé évoquait aussi l’indécidabilité de certaines propriétés.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;nouvelles-fonctionnalits-pour-arxiv-et-dblp&quot;&gt;«Nouvelles» fonctionnalités pour arXiv et DBLP&lt;/h1&gt;
+&lt;h2 id=&quot;nouvelles-fonctionnalits-pour-arxiv-et-dblp&quot;&gt;«Nouvelles» fonctionnalités pour arXiv et DBLP&lt;/h2&gt;
 
 &lt;p&gt;Je n’ai réalisé que récemment que &lt;a href=&quot;https://arxiv.org/&quot;&gt;Arxiv&lt;/a&gt; et 
 &lt;a href=&quot;https://dblp.uni-trier.de/&quot;&gt;DBLP&lt;/a&gt; faisaient plus que ce que je ne 
@@ -98,7 +219,7 @@ rajoute quelques uns un peu moins connus mais tout aussi intéressants.&lt;/p&gt
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;math-cap-programminghttpsjeremykuncom&quot;&gt;&lt;a href=&quot;https://jeremykun.com/&quot;&gt;Math $\cap$ Programming&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;math-cap-programminghttpsjeremykuncom&quot;&gt;&lt;a href=&quot;https://jeremykun.com/&quot;&gt;Math $\cap$ Programming&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Le blog de Jeremy Kun, ingénieur chez Google, mais intéressé par la
 vulgarisation de l’informatique et des maths.
 La plupart des posts portent sur un sujet assez précis, parfois 
@@ -110,7 +231,7 @@ courbes etc. pour illustrer et rendre le tout plus concret.
 Les sujets vont de l’apprentissage automatique à la théorie des
 catégories, de la théorie des graphes à la crypto.&lt;/p&gt;
 
-&lt;h1 id=&quot;https11011110githubioblog&quot;&gt;&lt;a href=&quot;https://11011110.github.io/blog/&quot;&gt;01010101011&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;https11011110githubioblog&quot;&gt;&lt;a href=&quot;https://11011110.github.io/blog/&quot;&gt;01010101011&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;01010101011 est la chaîne de bits que l’on obtient en passant en binaire
 les initiales de &lt;a href=&quot;https://www.ics.uci.edu/~eppstein/&quot;&gt;David Eppstein&lt;/a&gt;,
 prof à l’université de Californie à Irvine, et
@@ -123,7 +244,7 @@ Il écrit aussi des billets sur ces propres articles, donnant une perspective
 plus personnelle et informelle, et sur des idées algorithmiques qu’il trouve 
 intéressantes.&lt;/p&gt;
 
-&lt;h1 id=&quot;oded-goldreichs-opinionshttpwwwwisdomweizmannacilodedessayshtml-and-choiceshttpwwwwisdomweizmannacilodedmy-choicehtml&quot;&gt;&lt;a href=&quot;http://www.wisdom.weizmann.ac.il/~oded/essays.html&quot;&gt;Oded Goldreich’s opinions&lt;/a&gt; and &lt;a href=&quot;http://www.wisdom.weizmann.ac.il/~oded/my-choice.html&quot;&gt;choices&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;oded-goldreichs-opinionshttpwwwwisdomweizmannacilodedessayshtml-and-choiceshttpwwwwisdomweizmannacilodedmy-choicehtml&quot;&gt;&lt;a href=&quot;http://www.wisdom.weizmann.ac.il/~oded/essays.html&quot;&gt;Oded Goldreich’s opinions&lt;/a&gt; and &lt;a href=&quot;http://www.wisdom.weizmann.ac.il/~oded/my-choice.html&quot;&gt;choices&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Oded Goldreich est chercheur renommé, notamment en complexité. Il est aussi 
 connu pour ses prises de positions critiques envers le système des conférences, 
@@ -134,7 +255,7 @@ récents, et que les blogs classiques ne parlent que des articles phares. Pour
 contrer cette tendance à son niveau, il fait une liste commentées de ses «choix» : 
 les articles qu’il lit et qui lui semblent intéressants (voir le second lien).&lt;/p&gt;
 
-&lt;h1 id=&quot;property-testing-review&quot;&gt;Property testing review&lt;/h1&gt;
+&lt;h2 id=&quot;property-testing-reviewhttpsptreviewsublinearinfo&quot;&gt;&lt;a href=&quot;https://ptreview.sublinear.info/&quot;&gt;Property testing review&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Une bonne initiative dans le domaine du 
 &lt;a href=&quot;https://fr.wikipedia.org/wiki/Test_de_propri%C3%A9t%C3%A9&quot;&gt;test de propriété&lt;/a&gt;:
 ce blog publie chaque mois une liste commentée des articles du domaine sortis 
@@ -143,12 +264,12 @@ pendant le mois écoulé (sur arXiv ou ECCC). Écrit en rotation par
 &lt;a href=&quot;http://www.gautamkamath.com/&quot;&gt;Gautam Kamath&lt;/a&gt;, 
 et &lt;a href=&quot;https://users.soe.ucsc.edu/~sesh/&quot;&gt;C. Seshadhri&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&quot;bonus&quot;&gt;Bonus&lt;/h1&gt;
+&lt;h2 id=&quot;bonus&quot;&gt;Bonus&lt;/h2&gt;
 &lt;p&gt;Pour plus de blogs voir le sujet
 &lt;a href=&quot;https://cstheory.stackexchange.com/questions/22191/what-cs-blogs-should-everyone-read&quot;&gt;What CS blogs should everyone read?&lt;/a&gt;
 sur Stack Exchange. 
 Une autre initiative à noter (mais qui n’est pas un blog) : le 
-séminaire en ligne TCS+, avec de super exposés, et une 
+séminaire en ligne &lt;a href=&quot;https://sites.google.com/site/plustcs/&quot;&gt;TCS+&lt;/a&gt;, avec de super exposés, et une 
 &lt;a href=&quot;https://fr.wikipedia.org/wiki/Empreinte_%C3%A9cologique&quot;&gt;empreinte écologique&lt;/a&gt;
 réduite.&lt;/p&gt;
 </description>
