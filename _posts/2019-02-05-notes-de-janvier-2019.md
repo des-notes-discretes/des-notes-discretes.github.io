@@ -13,7 +13,7 @@ Quelques notes de janvier.
 
 ---
 
-# Rediffusion de géométrie aléatoire
+## Rediffusion de géométrie aléatoire
 
 *Images des maths* rediffuse un 
 [article à propos de la géométrie aléatoire](http://images.math.cnrs.fr/A-quoi-ressemble-un-planisphere-vraiment-aleatoire.html)
@@ -33,7 +33,7 @@ qui semble très bien écrite et que j'espère lire un jour.
 [«journée carte»](http://cartaplus.math.cnrs.fr/JourneesCartes/) 
 de prévue le 15 février à Paris.)
 
-# LIPIcs sans logos
+## LIPIcs sans logos
 
 J'aime bien la classe latex LIPICs qui est utilisée par la plupart des 
 conférences ayant choisi l'accès ouvert. 

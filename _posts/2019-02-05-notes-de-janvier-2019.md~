@@ -97,7 +97,7 @@ la [complexité lisse](Analyse lisse d'algorithme). Voir aussi les
 [Tim Roughgarden](http://timroughgarden.org/).
 
 Ce mois-ci, une nouvelle mesure est définie dans un 
-[papier arxiv](https://export.arxiv.org/abs/1901.02857) ce mois-ci : la
+[papier arxiv](https://export.arxiv.org/abs/1901.02857) : la
  complexité fragile. J'ai juste lu le résumé, et je ne comprends pas en quoi 
 cette mesure est fragile, mais je comprends la définition dans le cas du tri : 
 la complexité fragile d'un algorithme de tri sur une instance donnée est le 
