@@ -64,8 +64,7 @@ En parlant de PAC, Leslie Valiant a publié un [livre](http://www.probablyapprox
 disponible en français, à propos de ce concept (dont il est l'inventeur), et de 
 ses liaisons avec la nature et l'évolution.
 
-
-## Éoliennes, apprentissage et algorithmes
+## Éoliennes, apprentissage et algorithmes
 
 Lance Fortnow [bloguait ce mois-ci](https://blog.computationalcomplexity.org/2019/01/machine-learning-and-wind-turbines.html)
 à propos des éoliennes et de l'apprentissage. 
