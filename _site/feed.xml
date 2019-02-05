@@ -7,6 +7,111 @@
     <atom:link href="https://des-notes-discretes.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Notes de janvier</title>
+        <description>&lt;p&gt;Quelques notes de janvier.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/ciel.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;400px&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;rediffusion-de-gomtrie-alatoire&quot;&gt;Rediffusion de géométrie aléatoire&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Images des maths&lt;/em&gt; rediffuse un 
+&lt;a href=&quot;http://images.math.cnrs.fr/A-quoi-ressemble-un-planisphere-vraiment-aleatoire.html&quot;&gt;article à propos de la géométrie aléatoire&lt;/a&gt;
+pour fêter l’&lt;a href=&quot;http://www.actu.u-psud.fr/fr/recherche/actualites-2019/jean-francois-le-gall-laureat-du-prix-wolf-de-mathematiques.html&quot;&gt;attribution du prix Wolf à Jean-François Le Gall&lt;/a&gt;. 
+L’article de &lt;a href=&quot;https://www.math.u-psud.fr/~curien/&quot;&gt;Nicolas Curien&lt;/a&gt;
+donne quelques résultats surprenants sur les &lt;a href=&quot;https://fr.wikipedia.org/wiki/Carte_combinatoire&quot;&gt;cartes planaires&lt;/a&gt;,
+c’est-à-dire les graphes plongés dans le plan. 
+Entre autres choses surprenantes :
+le concept est étudié dans l’optique d’une unification de la relativité générale 
+et de la mécanique quantique (!).&lt;/p&gt;
+
+&lt;p&gt;Un document sur cette thématique est 
+l’&lt;a href=&quot;https://www.irif.fr/~chapuy/chapuyHabilitationWeb.pdf&quot;&gt;habilitation de Guillaume Chapuy&lt;/a&gt;,
+qui semble très bien écrite et que j’espère lire un jour.&lt;/p&gt;
+
+&lt;p&gt;(Si vous êtes fanatique de cartes, il y a une 
+&lt;a href=&quot;http://cartaplus.math.cnrs.fr/JourneesCartes/&quot;&gt;«journée carte»&lt;/a&gt; 
+de prévue le 15 février à Paris.)&lt;/p&gt;
+
+&lt;h1 id=&quot;lipics-sans-logos&quot;&gt;LIPIcs sans logos&lt;/h1&gt;
+
+&lt;p&gt;J’aime bien la classe latex LIPICs qui est utilisée par la plupart des 
+conférences ayant choisi l’accès ouvert. 
+Pour l’utiliser dans d’autres contextes 
+que ces conférences, par exemple pour des versions arxiv, il y avait jusqu’à 
+récemment quelques difficultés: des logos, des références au numéro doi etc. 
+Suivant l’exemple d’un collègue, j’avais modifié le fichier de classe, mais 
+c’est désormais inutile : la commande \hideLIPICs cache les informations 
+non-pertinentes. (Voir les
+&lt;a href=&quot;http://drops.dagstuhl.de/styles/lipics-v2019/lipics-v2019-authors/lipics-v2019-authors-guidelines.pdf&quot;&gt;recommendations aux auteurs&lt;/a&gt;, 
+page 8.)&lt;/p&gt;
+
+&lt;h2 id=&quot;apprentissage-profond-et-apprentissage-pac&quot;&gt;Apprentissage profond et apprentissage PAC&lt;/h2&gt;
+
+&lt;p&gt;L’apprentissage profond est très populaire auprès d’à peu près tout le monde 
+(d’un point de vue purement technique), sauf des informaticiens théoriciens qui 
+lui reprochent son manque de garanties théoriques. 
+Plusieurs groupes de recherches essayent de combler ce vide (par exemple 
+&lt;a href=&quot;http://people.csail.mit.edu/madry/lab/&quot;&gt;autour d’Alexander Mądry&lt;/a&gt;
+et du &lt;a href=&quot;http://mltheory.cs.princeton.edu/&quot;&gt;ML theory group à Princeton&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Un des cadres rigoureux d’analyse de l’apprentissage est 
+l’&lt;a href=&quot;https://fr.wikipedia.org/wiki/Apprentissage_PAC&quot;&gt;apprentissage PAC&lt;/a&gt;, et 
+&lt;a href=&quot;https://theorydish.blog/2019/01/04/on-pac-analysis-and-deep-neural-networks/&quot;&gt;des liens sont en train d’être tissés&lt;/a&gt; 
+entre les deux.&lt;/p&gt;
+
+&lt;p&gt;En parlant de PAC, Leslie Valiant a publié un &lt;a href=&quot;http://www.probablyapproximatelycorrect.com/&quot;&gt;livre&lt;/a&gt;
+disponible en français, à propos de ce concept (dont il est l’inventeur), et de 
+ses liaisons avec la nature et l’évolution.&lt;/p&gt;
+
+&lt;h2 id=&quot;oliennes-apprentissage-et-algorithmes&quot;&gt; Éoliennes, apprentissage et algorithmes&lt;/h2&gt;
+
+&lt;p&gt;Lance Fortnow &lt;a href=&quot;https://blog.computationalcomplexity.org/2019/01/machine-learning-and-wind-turbines.html&quot;&gt;bloguait ce mois-ci&lt;/a&gt;
+à propos des éoliennes et de l’apprentissage.&lt;/p&gt;
+
+&lt;p&gt;En un mot, les changements soudain de force et de direction du vent sont un 
+problème récurrent pour les éoliennes, et causent de nombreux dégats si ils ne 
+sont pas anticipés. Il est possible d’utiliser des simulations de mécaniques des 
+fluides, mais c’est plutôt lent, et la tendance est à l’utilisation de 
+l’apprentissage pour faire des prévisions rapides.&lt;/p&gt;
+
+&lt;p&gt;Ainsi, il existe une manière bien définie/comprise de procéder, mais l’on 
+préfère l’apprentissage pour sa rapidité. Cela m’a rappelé un 
+&lt;a href=&quot;https://cstheory.stackexchange.com/questions/38095/if-machine-learning-techniques-keep-improving-whats-the-role-of-algorithmics-i&quot;&gt;sujet sur stack exchange&lt;/a&gt;
+qui posait la question suivante : les algorithmes seront-ils encore utiles dans 
+le futur (sachant que pour la majorité des problèmes que nous avons à résoudre, 
+nous n’avons pas besoin d’une solution parfaite, et le plus souvent nous ne 
+pouvons même pas mesurer la qualité de la solution) ? 
+Malheuresement la question n’a pas reçu beaucoup de réponses…&lt;/p&gt;
+
+&lt;h2 id=&quot;au-del-du-pire-cas-et-complexit-fragile&quot;&gt;Au-delà du pire cas et complexité fragile&lt;/h2&gt;
+
+&lt;p&gt;Une nouvelle approche de recherche en informatique théorique consiste à aller 
+«au-delà de la complexité dans le pire cas» (&lt;em&gt;«beyond worst-case»&lt;/em&gt;), 
+c’est-à-dire à considérer d’autres mesures d’efficacité que le temps de calcul 
+sur la pire instance, puisque cette dernière est parfois (souvent ?) peu 
+pertinente. Il y a beaucoup de bonnes choses à découvrir dans ce domaine, comme 
+la &lt;a href=&quot;Analyse lisse d'algorithme&quot;&gt;complexité lisse&lt;/a&gt;. Voir aussi les
+&lt;a href=&quot;http://timroughgarden.org/f14/l/top10.pdf&quot;&gt;top 10 ideas&lt;/a&gt; du domaine par 
+&lt;a href=&quot;http://timroughgarden.org/&quot;&gt;Tim Roughgarden&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ce mois-ci, une nouvelle mesure est définie dans un 
+&lt;a href=&quot;https://export.arxiv.org/abs/1901.02857&quot;&gt;papier arxiv&lt;/a&gt; : la
+ complexité fragile. J’ai juste lu le résumé, et je ne comprends pas en quoi 
+cette mesure est fragile, mais je comprends la définition dans le cas du tri : 
+la complexité fragile d’un algorithme de tri sur une instance donnée est le 
+nombre maximum de fois qu’un élément est comparé.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 05 Feb 2019 00:00:00 +0100</pubDate>
+        <link>https://des-notes-discretes.github.io///notes-de-janvier-2019</link>
+        <guid isPermaLink="true">https://des-notes-discretes.github.io///notes-de-janvier-2019</guid>
+      </item>
+    
+      <item>
         <title>Notes de décembre</title>
         <description>&lt;p&gt;Quelques notes de décembre avec un peu de retard. Bonne année !&lt;/p&gt;
 
@@ -109,8 +214,7 @@ paramètre : &lt;code&gt;\\[3 cm]&lt;/code&gt;.&lt;/li&gt;
 Par exemple: &lt;code&gt;\setlength\itemsep{1em}&lt;/code&gt; juste après un &lt;code&gt;\begin{itemize}&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;distance-de-jaccard&quot;&gt; Distance de jaccard&lt;/h2&gt;
-
+&lt;h2 id=&quot;distance-de-jaccard&quot;&gt;Distance de Jaccard&lt;/h2&gt;
 &lt;p&gt;Lipton et Regan parle de la 
 &lt;a href=&quot;https://fr.wikipedia.org/wiki/Indice_et_distance_de_Jaccard&quot;&gt;distance de Jaccard&lt;/a&gt; 
 (et de pourquoi c’est une métrique) dans
