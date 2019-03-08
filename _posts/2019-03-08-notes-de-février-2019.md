@@ -78,7 +78,7 @@ adjacentes, obtienne un nombre différent de celui de ses voisins.
 Un survey sur cette conjecture est disponible 
 [ici](https://arxiv.org/pdf/1211.5122.pdf).
 
-## Identité de Vandermonde
+## Identité de Vandermonde
 
 L' [identité de Vandermonde](https://fr.wikipedia.org/wiki/Identit%C3%A9_de_Vandermonde)
 est la suivante : 
