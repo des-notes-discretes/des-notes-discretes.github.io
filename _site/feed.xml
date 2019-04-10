@@ -7,6 +7,75 @@
     <atom:link href="https://des-notes-discretes.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Notes de mars</title>
+        <description>&lt;p&gt;Notes de mars 2019.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;assets/fleur.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;[Étant déjà en retard, je ne fais ce mois-ci 
+qu’une liste annotée de pointeurs 
+vers des contenus fancophones. Voir la version anglophone 
+&lt;a href=&quot;https://discrete-notes.github.io/march-2019-notes-1&quot;&gt;ici&lt;/a&gt; et 
+&lt;a href=&quot;https://discrete-notes.github.io/march-2019-notes-2&quot;&gt;là&lt;/a&gt; pour plus de choses 
+scientifiques.]&lt;/p&gt;
+
+&lt;h2 id=&quot;architecture-et-nouveaux-langages-sur-interstices&quot;&gt;Architecture et nouveaux langages, sur Interstices&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://interstices.info&quot;&gt;Interstices&lt;/a&gt; est une chouette plate-forme, que 
+j’oublie périodiquement, parce qu’elle n’est pas très très active.&lt;/p&gt;
+
+&lt;p&gt;J’ai été re-jeter un coup d’œil récemment et j’ai lu avec intérêt deux billets :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://interstices.info/pourquoi-creer-des-nouveaux-langages-de-programmation/&quot;&gt;Pourquoi créer des nouveaux langages de programmation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://interstices.info/le-modele-darchitecture-de-von-neumann/&quot;&gt;Le modèle d’architecture de Von Neumann&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En lisant le second je suis tombé sur l’article wikipedia sur la 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/M%C3%A9moire_%C3%A0_ligne_de_d%C3%A9lai&quot;&gt;mémoire à ligne de délai&lt;/a&gt;,
+l’un des premiers types de mémoire vive utilisé. 
+En gros, le principe de cette mémoire était de transformer le signal électrique en 
+signal acoustique, de le faire passer par un tube de mercure (ce qui prend un 
+petit moment), puis de le repasser en électrique de le ré-amplifier, et de le 
+refaire passer par tube etc. jusqu’à en avoir besoin.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/mercure.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;400px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;L’idée vient d’une technologie utilisée dans les radars (voir l’article 
+wikipedia, dont le dessin est aussi inspiré).&lt;/p&gt;
+
+&lt;h2 id=&quot;empreinte-carbone-de-la-recherche&quot;&gt; Empreinte carbone de la recherche&lt;/h2&gt;
+
+&lt;p&gt;Le collectif 1point5 a publié &lt;a href=&quot;https://www.lemonde.fr/sciences/article/2019/03/19/face-a-l-urgence-climatique-les-scientifiques-doivent-reduire-leur-impact-sur-l-environnement_5438048_1650684.html&quot;&gt;une tribune&lt;/a&gt; dans le Monde à propos de 
+l’impact climatique de la recherche. En très raccourci il s’agit d’un appel à 
+transformer la façon dont nous faisons de la recherche, pour ne pas trop 
+contribuer au réchauffement climatique. En informatique, j’imagine que cet 
+impact est surtout dû aux conférences. Pour preuve, l’histogramme suivant :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/histogram-CO2.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;la-plus-grosse-cellule-dun-voronoi-sur-images-des-maths&quot;&gt;La plus grosse cellule d’un Voronoi, sur Images des maths.&lt;/h2&gt;
+
+&lt;p&gt;Ce mois-ci &lt;a href=&quot;http://images.math.cnrs.fr/Une-version-de-la-conjecture-de-Kendall.html&quot;&gt;Images des maths nous parle&lt;/a&gt; 
+d’un résultat de géométrie aléatoire du plan.
+En terme simple: si on prend des points au hasard dans le plan, plus le nombre 
+de points augmente, plus la plus grosse cellule se rapproche d’un disque. 
+La proximité avec un disque se mesure par le rapport entre les rayons du plus 
+grand cercle contenu dans la cellule et du plus petit cercle contenant la cellule. 
+Voir le dessin ci-dessous.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/voronoi.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;400px&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 10 Apr 2019 00:00:00 +0200</pubDate>
+        <link>https://des-notes-discretes.github.io///notes-de-mars-2019</link>
+        <guid isPermaLink="true">https://des-notes-discretes.github.io///notes-de-mars-2019</guid>
+      </item>
+    
+      <item>
         <title>Notes de février</title>
         <description>&lt;p&gt;Notes de février 2019.&lt;/p&gt;
 
@@ -87,7 +156,7 @@ adjacentes, obtienne un nombre différent de celui de ses voisins.&lt;/p&gt;
 &lt;p&gt;Un survey sur cette conjecture est disponible 
 &lt;a href=&quot;https://arxiv.org/pdf/1211.5122.pdf&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&quot;identit-de-vandermonde&quot;&gt; Identité de Vandermonde&lt;/h2&gt;
+&lt;h2 id=&quot;identit-de-vandermonde&quot;&gt;Identité de Vandermonde&lt;/h2&gt;
 
 &lt;p&gt;L’ &lt;a href=&quot;https://fr.wikipedia.org/wiki/Identit%C3%A9_de_Vandermonde&quot;&gt;identité de Vandermonde&lt;/a&gt;
 est la suivante :&lt;/p&gt;
