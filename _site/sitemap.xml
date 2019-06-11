@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://des-notes-discretes.github.io/</loc>
-    <lastmod>2019-04-10T16:13:08+02:00</lastmod>
+    <lastmod>2019-06-11T14:57:38+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  
+    <url>
+      <loc>https://des-notes-discretes.github.io//notes-d-avril-mai-2019</loc>
+      
+        <lastmod>2019-06-11T00:00:00+02:00</lastmod>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
   
     <url>
       <loc>https://des-notes-discretes.github.io//notes-de-mars-2019</loc>
@@ -74,7 +83,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//404/</loc>
     
-      <lastmod>2019-04-10</lastmod>
+      <lastmod>2019-06-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -87,7 +96,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//about/</loc>
     
-      <lastmod>2019-04-10</lastmod>
+      <lastmod>2019-06-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -100,7 +109,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//archive/</loc>
     
-      <lastmod>2019-04-10</lastmod>
+      <lastmod>2019-06-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -113,7 +122,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//feed.xml</loc>
     
-      <lastmod>2019-04-10</lastmod>
+      <lastmod>2019-06-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -126,7 +135,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//</loc>
     
-      <lastmod>2019-04-10</lastmod>
+      <lastmod>2019-06-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -139,7 +148,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//page2/</loc>
     
-      <lastmod>2019-04-10</lastmod>
+      <lastmod>2019-06-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -152,7 +161,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//page3/</loc>
     
-      <lastmod>2019-04-10</lastmod>
+      <lastmod>2019-06-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -165,7 +174,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//page4/</loc>
     
-      <lastmod>2019-04-10</lastmod>
+      <lastmod>2019-06-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -178,7 +187,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//page5/</loc>
     
-      <lastmod>2019-04-10</lastmod>
+      <lastmod>2019-06-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -191,7 +200,7 @@
   <url>
     <loc>https://des-notes-discretes.github.io//page6/</loc>
     
-      <lastmod>2019-04-10</lastmod>
+      <lastmod>2019-06-11</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -204,7 +213,20 @@
   <url>
     <loc>https://des-notes-discretes.github.io//page7/</loc>
     
-      <lastmod>2019-04-10</lastmod>
+      <lastmod>2019-06-11</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>https://des-notes-discretes.github.io//page8/</loc>
+    
+      <lastmod>2019-06-11</lastmod>
     
     
       <changefreq>monthly</changefreq>

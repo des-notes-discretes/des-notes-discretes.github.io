@@ -7,6 +7,173 @@
     <atom:link href="https://des-notes-discretes.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Notes d'avril et de mai</title>
+        <description>&lt;p&gt;Des notes pour avril et mai.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;assets/potager.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;600px&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;tipe-ocan&quot;&gt;TIPE Océan&lt;/h2&gt;
+&lt;p&gt;« Interstices » publie un 
+&lt;a href=&quot;https://interstices.info/dossier/tipe-2019-2020-ocean/&quot;&gt;dossier sur l’océan&lt;/a&gt;, 
+le thème de 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Travail_d%27initiative_personnelle_encadr%C3%A9&quot;&gt;TIPE&lt;/a&gt; 
+de l’année à venir.
+Malheureusement, il n’y a pas grand chose qui utilise des maths discrètes ou de 
+l’algorithmique. Il est surtout question de modélisation, et quand des objets 
+discrets 
+apparaissent c’est plutôt sous forme de résolution numérique d’équations 
+discrétisées.
+De façon générale, je serais curieux de savoir si de l’algorithmique peut 
+être utile pour l’étude des océans, du climat etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;des-graphes-dfinis-par-des-allumettes-des-centimes-et-des-articulations&quot;&gt; Des graphes définis par des allumettes, des centimes et des articulations&lt;/h2&gt;
+
+&lt;p&gt;Voici trois classes de graphes que l’on peut décrire avec des objets du quotidien.&lt;/p&gt;
+
+&lt;p&gt;Les &lt;a href=&quot;https://fr.wikipedia.org/wiki/Graphe_allumette&quot;&gt;graphes d’allumettes&lt;/a&gt; sont 
+les graphes que l’on peut dessiner sur une table avec des allumettes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/alumettes.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Plus précisement, ce sont les graphes planaires et 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Graphe_distance-unit%C3%A9&quot;&gt;distance-unités&lt;/a&gt;, 
+c’est-à-dire les graphes qui peuvent être dessinés dans le plan avec des 
+arêtes (droites) de longueur 1. (« Graphe distance-unité » n’est pas un très bon 
+nom mais c’est celui utilisé par wikipedia, et je n’ai pas trouvé mieux.)&lt;/p&gt;
+
+&lt;p&gt;Ensuite, les graphes de centimes 
+(&lt;a href=&quot;https://en.wikipedia.org/wiki/Penny_graph&quot;&gt;penny graphs&lt;/a&gt; en anglais) sont les 
+graphes qui représentent des centimes sur une table.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/pennies.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Plus précisément, un graphe est un graphe de centimes si il est possible de 
+représenter 
+chaque sommet par un disque de rayon 1, et de placer les disques de manière à ce
+qu’ils ne se touchent qu’à la frontière, et que chaque contact représente une 
+arête.&lt;/p&gt;
+
+&lt;p&gt;Les graphes de centimes sont des graphes d’allumettes, mais l’inverse n’est pas 
+vrai.&lt;/p&gt;
+
+&lt;p&gt;Enfin, considérons l’idée suivante. Prenons un graphe, et remplaçons 
+chaque arête par une tige et chaque nœud par une articulation.
+Alors, si en poussant dessus, cette structure change de forme, elle est dite 
+flexible, sinon elle est dites 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Rigidit%C3%A9_structurelle&quot;&gt;rigide&lt;/a&gt;.
+Par exemple un cube est flexible, mais un tétrahèdre est rigide.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/rigide.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;300px&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pagerank-et-billard&quot;&gt; Pagerank et billard&lt;/h2&gt;
+
+&lt;p&gt;« Images des maths » publie 
+&lt;a href=&quot;http://images.math.cnrs.fr/De-l-algorithme-de-Google-aux-billards-de-Sinai.html&quot;&gt;un billet&lt;/a&gt;
+à propos de &lt;a href=&quot;https://fr.wikipedia.org/wiki/PageRank&quot;&gt;PageRank&lt;/a&gt;, et des 
+mathématiques des 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Billard_de_Sina%C3%AF&quot;&gt;billards de Sinaï&lt;/a&gt; 
+(en l’honneur de 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Viviane_Baladi&quot;&gt;Viviane Baladi&lt;/a&gt; qui a travaillé 
+sur le second sujet).&lt;/p&gt;
+
+&lt;p&gt;Les deux objets ont en commun de traiter d’une trajectoire dans un espace.
+La base de l’algorithme PageRank consiste à visiter les pages Internet en 
+suivant au hasard les liens hypertextes. 
+Autrement dit, on fait une marche aléatoire sur le
+graphe des liens.
+Le billard de Sinaï est un billard carré, avec un obstacle rond au milieu, dans 
+lequel on lance une boule, qui roule sans frottement, 
+et a donc une trajectoire infinie.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/billard.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;300px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ces deux objets ont des propriétés similaires de « mélange ». Dans le billard de 
+Sinaï, si l’on lance un grand nombre de boules dans des directions légèrement 
+différentes, on arrivera rapidement à une distribution relativement uniforme des 
+boules sur le billard. 
+Dans PageRank, le 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Perron-Frobenius&quot;&gt;théorème de Perron-Frobenius&lt;/a&gt;
+implique que rapidement, la marche aléatoire atteint une distribution 
+stationnaire : la probabilité d’être en train de visiter un certain nœud 
+converge.&lt;/p&gt;
+
+&lt;h2 id=&quot;timothygowers-sur-comment-faire-des-maths&quot;&gt;Timothy Gowers sur comment faire des maths&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://images.math.cnrs.fr/Revue-de-presse-avril-2019.html#readmore&quot;&gt;La revue de presse&lt;/a&gt;
+d’avril d’« Images des maths », pointent sur 
+&lt;a href=&quot;https://smf.emath.fr/smf-dossiers-et-ressources/t-gowers-comment-decouvrir-une-demonstration-pourtant-longue-et-complexe&quot;&gt;la vidéo d’un exposé&lt;/a&gt;, 
+en français (!), de 
+&lt;a href=&quot;https://fr.wikipedia.org/wiki/Timothy_Gowers&quot;&gt;Timothy Gowers&lt;/a&gt;, sur le thème 
+« comment découvrir une démonstration pourtant longue et complexe ».&lt;/p&gt;
+
+&lt;p&gt;En quelques mots il s’agit de montrer différentes techniques utilisées pour 
+résoudre des problèmes : résoudre des cas particuliers, généraliser la question, 
+prendre une approche probabiliste, faire des analogies, etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;non-reproductibilit-et-checs-non-publis&quot;&gt;Non-reproductibilité et échecs non-publiés&lt;/h2&gt;
+
+&lt;p&gt;Un &lt;a href=&quot;https://www.nature.com/articles/d41586-019-01307-2?utm_source=twt_nnc&amp;amp;utm_medium=social&amp;amp;utm_campaign=naturenews&amp;amp;sf211598052=1&quot;&gt;article dans Nature&lt;/a&gt; 
+liste les « quatre cavaliers de la non-reproductibilité ».
+L’un d’eux est le biais de publication: lorsque l’on recherche une corrélation, 
+et que l’on n’arrive pas à la mettre en évidence, on ne peut rien publier.
+Il y a deux problèmes principaux avec ce biais : (1) les chercheurs sont 
+encouragés à trouver des corrélations, plutôt qu’à trouver la vérité, et (2) 
+si l’on est dans un cas où il n’y a pas de corrélation dans la réalité, mais 
+que statistiquement on peut détecter une (fausse) corrélation dans 5% des cas, 
+alors en moyenne si 20 équipes font l’expérience, l’une d’elle détectera la 
+corrélation, publiera le résultats, et les autres resteront silencieuses sur leur
+absence de corrélation trouvée.&lt;/p&gt;
+
+&lt;p&gt;Une initiative pour réduire ce biais est la notion de 
+« &lt;a href=&quot;https://cos.io/rr/&quot;&gt;registered report&lt;/a&gt; ». Cela consiste pour le journal, a 
+évalué l’expérience elle-même (la méthode, le matériel, l’hypothèse) avant 
+qu’elle soit conduite. Si ce plan est accepté, alors on fait l’expérience, 
+l’article est écrit et publié (sous réserve d’être raisonnable), même si il ne 
+conclue pas à une corrélation.&lt;/p&gt;
+
+&lt;p&gt;En informatique théorique, et en mathématiques en général, le biais de 
+publication n’est pas un problème central, puisque l’on peut vérifier les 
+preuves. Cependant, nous perdons sans doute beaucoup de temps à essayer des 
+approches déjà testées, puisque nous ne publions pas nos échecs.&lt;/p&gt;
+
+&lt;h2 id=&quot;avions-etc&quot;&gt;Avions etc.&lt;/h2&gt;
+
+&lt;p&gt;Quelques éléments supplémentaires pour poursuivre sur une 
+&lt;a href=&quot;[note of last month](https://discrete-notes.github.io/march-2019-notes-2)&quot;&gt;note du mois dernier&lt;/a&gt;, 
+à propos des trajets pour aller en conférence et de leur impact environnemental.&lt;/p&gt;
+
+&lt;p&gt;Un &lt;a href=&quot;https://theconversation.com/chercheurs-donnez-lexemple-prenez-moins-lavion-110613&quot;&gt;article de « The Conversation »&lt;/a&gt;
+mentionne plusieurs alternatives aux modèles classiques des conférences.
+L’une d’elle est d’avoir des conférences purement virtuelles, comme 
+&lt;a href=&quot;https://ehc.english.ucsb.edu/?page_id=12687&quot;&gt;celle-ci&lt;/a&gt;. Dans ce format, 
+personne ne bougent, tout est organisé avec des vidéos enregistrées et des 
+visio-conférences.
+Une autre alternative, moins drastique, est d’avoir une conférence réparties sur 
+plusieurs sites (par exemple un centre par continent), avec de fait un mélange 
+entre des interactions en personne et en visio-conférence.&lt;/p&gt;
+
+&lt;p&gt;Au passage, rappelons qu’il existe un séminaire virtuel d’informatique 
+théorique : &lt;a href=&quot;https://sites.google.com/site/plustcs/&quot;&gt;TCS+&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Un autre point lié au même sujet : il est difficile de faire des efforts pour 
+réduire son impact, lorsque l’on est seul et que c’est un frein pour une 
+carrière. Peut-être qu’un type de charte au niveau d’une communauté ou d’une 
+institution pourrait aider. 
+Par exemple le journal danois « Politiken » 
+&lt;a href=&quot;https://www.lemonde.fr/climat/article/2019/01/16/climat-plus-de-vols-interieurs-pour-les-journalistes-de-politiken_5409874_1652612.html?xtmc=politiken&amp;amp;xtcr=5&quot;&gt;a récemment mis en place une telle charte&lt;/a&gt; : pas de vols intérieurs 
+pour les journalistes, moins de vols de manière générale, moins de pub pour des 
+destinations de vacances lointaines etc.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 11 Jun 2019 00:00:00 +0200</pubDate>
+        <link>https://des-notes-discretes.github.io///notes-d-avril-mai-2019</link>
+        <guid isPermaLink="true">https://des-notes-discretes.github.io///notes-d-avril-mai-2019</guid>
+      </item>
+    
+      <item>
         <title>Notes de mars</title>
         <description>&lt;p&gt;Notes de mars 2019.&lt;/p&gt;
 
@@ -17,7 +184,7 @@
 
 &lt;p&gt;[Étant déjà en retard, je ne fais ce mois-ci 
 qu’une liste annotée de pointeurs 
-vers des contenus fancophones. Voir la version anglophone 
+vers des contenus francophones. Voir la version anglophone 
 &lt;a href=&quot;https://discrete-notes.github.io/march-2019-notes-1&quot;&gt;ici&lt;/a&gt; et 
 &lt;a href=&quot;https://discrete-notes.github.io/march-2019-notes-2&quot;&gt;là&lt;/a&gt; pour plus de choses 
 scientifiques.]&lt;/p&gt;
