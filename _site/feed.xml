@@ -7,6 +7,139 @@
     <atom:link href="https://des-notes-discretes.github.io//feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Notes de juin</title>
+        <description>&lt;p&gt;Des notes pour juin 2019.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;assets/rose.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;small&gt;&lt;i&gt;
+Roses de l'&lt;a href=&quot;https://fr.wikipedia.org/wiki/Abbaye_Sainte-Marie_de_Fontfroide&quot;&gt;abbaye de Fontfroide&lt;/a&gt;,
+excursion de la &lt;a href=&quot;https://www.irit.fr/algotel2019/index.html&quot;&gt;conférence Algotel&lt;/a&gt;.&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;nombres-commenant-par-1&quot;&gt;Nombres commençant par 1&lt;/h2&gt;
+
+&lt;p&gt;En regardant des nombres issus de jeux de données, vous verrez peut-être le 
+phénomène suivant apparaître : les nombres commençant par 1 sont plus courants 
+que les autres. Cela parait complètement fantaisiste ou au mieux contre-intuitif.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Images des maths&lt;/em&gt; publie 
+&lt;a href=&quot;http://images.math.cnrs.fr/Quel-est-le-debut-de-ce-nombre.html&quot;&gt;un billet&lt;/a&gt;
+sur le sujet ce mois-ci, avec des infos sur les jeux de données qui satisfont 
+cette loi, plusieurs explications mathématiques, et une application à… la
+comptabilité.&lt;/p&gt;
+
+&lt;h2 id=&quot;lellipsode-de-john-et-loewner&quot;&gt;L’ellipsoïde de John et Loewner&lt;/h2&gt;
+
+&lt;p&gt;Un &lt;a href=&quot;https://arxiv.org/pdf/1905.11580.pdf&quot;&gt;article sur arxiv&lt;/a&gt; m’a fait découvrir
+l’ellipsoïde de John et Loewner. (En anglais Loewner n’est pas souvent cité, et on 
+dit &lt;em&gt;John ellispoid&lt;/em&gt;.) Étant donné un polytope en $n$ dimensions, cet 
+ellipsoïde est celui de plus grand volume inclus dans le polytope. Il est unique. 
+Sur l’image ci-dessous, c’est l’ellipse rouge (plus ou moins).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/john-ellipsoid.png&quot; alt=&quot;&quot; class=&quot;center-image&quot; height=&quot;250px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Un propriété intéressante est que si l’on prend l’ellipsoïde de John et Loewner, 
+et qu’on le dilate d’un facteur $n$, on obtient un ellipsoïde qui peut contenir 
+le polytope de départ (en bleu sur l’image). 
+Je trouve le facteur $n$ difficile à visualiser, mais si l’on passe d’un triangle 
+et un tétraèdre de « même taille », on voit que la boule intérieure maximum 
+diminue en rayon et que la boule extérieur minimum augmente.&lt;/p&gt;
+
+&lt;p&gt;L’article sur arxiv présente un algorithme pour approcher l’ellipsoïde de John 
+et Loewner.&lt;/p&gt;
+
+&lt;p&gt;(Avis au amateurs : l’ellispoïde de John et Loewner n’a pas encore d’article en 
+français sur wikipedia, bien qu’il semble être un sujet de 
+développement d’agreg classique.)&lt;/p&gt;
+
+&lt;h2 id=&quot;statistiques-non-paramtriques&quot;&gt;Statistiques non-paramétriques&lt;/h2&gt;
+
+&lt;p&gt;Je connais très peu de chose en stat. 
+Une division fondamentale semble être entre statistique paramétrique ou non. 
+Dans la variante paramétrique, on part d’une hypothèse du type « la fonction qui 
+va représenter l’ensemble de points est une gaussienne ». Et ensuite on cherche à 
+évaluer les paramètres de la fonction (e.g. la moyenne de la gaussienne).
+Dans la variante non paramétrique, on ne fait pas d’hypothèse, et on essaye 
+juste d’avoir une version lisse de l’histogramme des points qui satisfasse 
+certaines propriétés. L’idée est en gros de représenter chaque point par une 
+fonction lisse et d’additionner toutes ces fonctions.&lt;/p&gt;
+
+&lt;p&gt;Pour en savoir, voir 
+&lt;a href=&quot;http://images.math.cnrs.fr/Qu-est-ce-que-l-estimation-non-parametrique.html&quot;&gt;cet article&lt;/a&gt;
+sur &lt;em&gt;Image des maths&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;exposs-enregistrs-et-collaborations--distance&quot;&gt;Exposés enregistrés et collaborations à distance&lt;/h2&gt;
+
+&lt;p&gt;Pour continuer sur le sujet des conférences virtuelles abordé le mois dernier, 
+une question centrale est : est-ce que ça peut vraiment marcher ?&lt;/p&gt;
+
+&lt;p&gt;Je dois admettre que, bien qu’étant enthousiaste sur l’idée, j’ai des 
+difficultés à suivre les exposés vidéos, et je ne suis pas toujours à l’aise lors
+des appels vidéos. 
+J’ai essayé de lister quelques explications à ces difficultés :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dans un exposé vidéo, on peut s’échapper, aller prendre un café, vérifier sa 
+boite mail. Ces alternatives rendent plus difficile la concentration.&lt;/li&gt;
+  &lt;li&gt;les exposés ou appels vidéos sont moins immersifs : le son est mauvais, l’image
+occupe une petite partie du champs visuel, et on n’a pas l’impression de « faire 
+partie d’un événement ».&lt;/li&gt;
+  &lt;li&gt;une conséquence du point précédent : les appels vidéos peuvent être inconfortable
+d’un point de vue social. Par exemple dans une vraie rencontre, les longs silences 
+de réflexion sont courants, alors qu’en visio, ces silences sont rapidement 
+bizarres, et on a tendance à arrêter l’appel.&lt;/li&gt;
+  &lt;li&gt;Une autre limitation technique, est que les vidéos sont souvent très statiques.
+Pour les exposés, le format classique consiste à avoir le transparent en plein 
+écran, avec une vignette pour le visage de l’orateur, ce qui bouge très peu : le 
+transparent change une fois par minute, et l’on ne peut pas voir les mouvements 
+de l’orateur.&lt;/li&gt;
+  &lt;li&gt;lié au point précédent : je ne connais pas de bonne manière de partager un 
+dessin, pour reproduire le tableau, ce qui est frustrant.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Certains de ces problèmes sont résolus par certaines plate-formes. 
+Par exemple &lt;a href=&quot;https://sites.google.com/site/plustcs/&quot;&gt;TCS+&lt;/a&gt; est un séminaire en 
+ligne où l’orateur n’enregistre pas sa vidéo « seul » : le format consiste en une
+visio-conférence avec une douzaine de sites, dont celui de la personne qui 
+donne l’exposé. (Les exposés sont tout de même enregistrés, et on peut les 
+regarder sur le site, mais ce n’est pas le but premier.)
+Ainsi, l’exposé est un événement, et si vous avez un système audiovisuel au point, 
+c’est peut être assez immersif. (Je n’ai jamais participé en vrai, j’ai juste vu 
+les vidéos.)&lt;/p&gt;
+
+&lt;p&gt;Certaines personnes ont des avis complètement opposés au mien et préfèrent les 
+exposés enregistrés, pour leur coté « hors ligne » : on peut arrêter, réfléchir, 
+vérifier une référence, sauter une partie etc. 
+Enfin, bien sûr la qualité de l’exposé dépend beaucoup de l’orateur, que ce soit 
+en vidéo ou en personne.&lt;/p&gt;
+
+&lt;p&gt;Si vous connaissez de bonnes alternatives à skype (idéalement open-source, avec 
+une possibilité de dessin partagé, et multi-utilisateurs), envoyez-moi un mail. 
+Ça sera utile non seulement à moi-même mais à d’autres : 
+je m’engage timidement dans le collectif 
+&lt;a href=&quot;https://labos1point5.org&quot;&gt;Labos 1point5&lt;/a&gt; (dont il a déjà été question ici) 
+pour regarder un peu les aspects techniques des vidéo-conférences.&lt;/p&gt;
+
+&lt;h2 id=&quot;exposs-de-fin-danne--lirif&quot;&gt;Exposés de fin d’année à l’IRIF&lt;/h2&gt;
+
+&lt;p&gt;Je n’ai pas pu assister aux exposés de fin d’année de l’IRIF (mon labo de thèse), 
+mais les supports des exposés sont en ligne est sont très intéressants :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.irif.fr/_media/rencontres/irif/informatique_et_de_veloppement_soutenable_irif.pdf&quot;&gt;Informatique et environement&lt;/a&gt;
+par Emmanuelle Frenoux, et&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.irif.fr/_media/rencontres/irif/parite_irif.pdf&quot;&gt;A quoi peut servir un GT égalité f/h ?&lt;/a&gt;
+par Anne Siegel.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 11 Jul 2019 00:00:00 +0200</pubDate>
+        <link>https://des-notes-discretes.github.io///notes-de-juin-2019</link>
+        <guid isPermaLink="true">https://des-notes-discretes.github.io///notes-de-juin-2019</guid>
+      </item>
+    
+      <item>
         <title>Notes d'avril et de mai</title>
         <description>&lt;p&gt;Des notes pour avril et mai.&lt;/p&gt;
 

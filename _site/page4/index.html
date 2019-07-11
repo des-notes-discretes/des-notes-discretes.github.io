@@ -87,109 +87,102 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/notes-de-janvier-2019">
-        Notes de janvier
+      <a href="/notes-de-février-2019">
+        Notes de février
       </a>
     </h1>
 
-    <span class="post-date">05 Feb 2019</span>
+    <span class="post-date">08 Mar 2019</span>
 
-    <p>Quelques notes de janvier.</p>
-
-<hr />
-
-<p><img src="assets/ciel.png" alt="" class="center-image" height="400px" /></p>
+    <p>Notes de février 2019.</p>
 
 <hr />
 
-<h2 id="rediffusion-de-gomtrie-alatoire">Rediffusion de géométrie aléatoire</h2>
+<p><img src="assets/moulin.png" alt="" class="center-image" height="450px" /></p>
 
-<p><em>Images des maths</em> rediffuse un 
-<a href="http://images.math.cnrs.fr/A-quoi-ressemble-un-planisphere-vraiment-aleatoire.html">article à propos de la géométrie aléatoire</a>
-pour fêter l’<a href="http://www.actu.u-psud.fr/fr/recherche/actualites-2019/jean-francois-le-gall-laureat-du-prix-wolf-de-mathematiques.html">attribution du prix Wolf à Jean-François Le Gall</a>. 
-L’article de <a href="https://www.math.u-psud.fr/~curien/">Nicolas Curien</a>
-donne quelques résultats surprenants sur les <a href="https://fr.wikipedia.org/wiki/Carte_combinatoire">cartes planaires</a>,
-c’est-à-dire les graphes plongés dans le plan. 
-Entre autres choses surprenantes :
-le concept est étudié dans l’optique d’une unification de la relativité générale 
-et de la mécanique quantique (!).</p>
+<hr />
 
-<p>Un document sur cette thématique est 
-l’<a href="https://www.irif.fr/~chapuy/chapuyHabilitationWeb.pdf">habilitation de Guillaume Chapuy</a>,
-qui semble très bien écrite et que j’espère lire un jour.</p>
+<h2 id="auto-stabilisation-au-collge-de-france">Auto-stabilisation au collège de France</h2>
 
-<p>(Si vous êtes fanatique de cartes, il y a une 
-<a href="http://cartaplus.math.cnrs.fr/JourneesCartes/">«journée carte»</a> 
-de prévue le 15 février à Paris.)</p>
+<p>Cette année je découvre le monde de 
+l’<a href="https://fr.wikipedia.org/wiki/Autostabilisation">autostabilisation</a>. 
+Un très bon exposé sur le sujet a été donné par 
+<a href="https://www-npa.lip6.fr/~tixeuil/wiki/pmwiki.php">Sébastien Tixeuil</a> 
+au collège de France il y a quelques semaines. 
+La vidéo est 
+<a href="https://www.college-de-france.fr/site/rachid-guerraoui/seminar-2019-02-15-11h00.htm">ici</a>.</p>
 
-<h2 id="lipics-sans-logos">LIPIcs sans logos</h2>
+<h2 id="minorits-dans-les-rseaux">Minorités dans les réseaux</h2>
 
-<p>J’aime bien la classe latex LIPICs qui est utilisée par la plupart des 
-conférences ayant choisi l’accès ouvert. 
-Pour l’utiliser dans d’autres contextes 
-que ces conférences, par exemple pour des versions arxiv, il y avait jusqu’à 
-récemment quelques difficultés: des logos, des références au numéro doi etc. 
-Suivant l’exemple d’un collègue, j’avais modifié le fichier de classe, mais 
-c’est désormais inutile : la commande \hideLIPICs cache les informations 
-non-pertinentes. (Voir les
-<a href="http://drops.dagstuhl.de/styles/lipics-v2019/lipics-v2019-authors/lipics-v2019-authors-guidelines.pdf">recommendations aux auteurs</a>, 
-page 8.)</p>
+<p>J’ai assisté à un exposé sur les minorités dans les réseaux, par
+<a href="http://claudiawagner.info/">Claudia Wagner</a> dans le cadre du 
+<a href="http://www.complexnetworks.fr/events/">Séminaire Complex network</a> de la 
+Sorbonne. 
+Il y a beaucoup de choses à dire, voici quelques toutes petites choses que j’ai 
+notées.</p>
 
-<h2 id="apprentissage-profond-et-apprentissage-pac">Apprentissage profond et apprentissage PAC</h2>
+<ul>
+  <li>
+    <p>Contrairement à ce que je pensais, la notion de 
+<a href="https://en.wikipedia.org/wiki/K-core">$k$-core</a> (« $k$-cœur » ?) est différente 
+de la notion de $k$-clique. 
+Un $k$-core d’un graphe est un sous-graphe (maximal) où tous les nœuds ont 
+degré au moins $k$. 
+Par exemple un graphe $k$-régulier est son propre core.
+Un tel sous-graphe peut représenter une communauté homogène dans un réseau.</p>
+  </li>
+  <li>
+    <p>Une partie de l’exposé portait sur les minorités dans wikipedia. 
+Un type d’affirmation que l’on aimerait confirmer ou infirmer est le suivant : 
+« les articles portant sur des femmes sont plus liés à des articles portant sur 
+des femmes que sur des hommes ». 
+Cet énoncé est faux en soi, mais c’est attendu puisqu’il y a plus d’articles 
+portant sur des hommes. 
+Qu’en est-il si l’on rajoute «proportionnement» ? Là encore ce n’est pas si 
+facile, car il y a des dépendances dans le réseau. 
+Une manière de faire est alors de considérer la proportion global d’articles de 
+chaque genre, puis d’effacer les genres, de réétiqueter au hasard en conservant 
+cette proportion, et de voir en quoi ce graphe est similaire ou différent du 
+graphe de départ. Un papier sur le sujet : 
+<a href="https://arxiv.org/pdf/1501.06307.pdf">It’s a Man’s Wikipedia? Assessing Gender Inequality in an Online Encyclopedia</a></p>
+  </li>
+  <li>
+    <p>Une notion connue sous le nom d’efficacité de Burt, de <em>brokerage</em> ou de 
+<a href="https://fr.wikipedia.org/wiki/Discussion:Trou_structural">trou structurel</a> est 
+(plus ou moins) la suivante. 
+Un nœud appartenant à (ou étant proche de) deux clusters d’un réseau, peut avoir 
+un avantage par rapport aux autres. 
+En effet il a accès aux connaissances des deux communautés, et peut ou non
+décider de transférer ces connaissances. 
+On peut définir des coefficients qui mesurent à quel point un nœud est dans une 
+telle position.</p>
+  </li>
+</ul>
 
-<p>L’apprentissage profond est très populaire auprès d’à peu près tout le monde 
-(d’un point de vue purement technique), sauf des informaticiens théoriciens qui 
-lui reprochent son manque de garanties théoriques. 
-Plusieurs groupes de recherches essayent de combler ce vide (par exemple 
-<a href="http://people.csail.mit.edu/madry/lab/">autour d’Alexander Mądry</a>
-et du <a href="http://mltheory.cs.princeton.edu/">ML theory group à Princeton</a>).</p>
+<h2 id="conjecture-1-2-3">Conjecture 1-2-3</h2>
 
-<p>Un des cadres rigoureux d’analyse de l’apprentissage est 
-l’<a href="https://fr.wikipedia.org/wiki/Apprentissage_PAC">apprentissage PAC</a>, et 
-<a href="https://theorydish.blog/2019/01/04/on-pac-analysis-and-deep-neural-networks/">des liens sont en train d’être tissés</a> 
-entre les deux.</p>
+<p>Un autre séminaire Complex Network (auquel je n’ai pas pu assiter) a été donné
+par
+<a href="http://www.labri.fr/index.php?n=Annuaires.Profile&amp;id=Senhaji_ID1441185629">Mohammed Senhaji</a> 
+à propos de la conjecture 1-2-3, qui est la suivante.</p>
 
-<p>En parlant de PAC, Leslie Valiant a publié un <a href="http://www.probablyapproximatelycorrect.com/">livre</a>
-disponible en français, à propos de ce concept (dont il est l’inventeur), et de 
-ses liaisons avec la nature et l’évolution.</p>
+<p>Dans tout graphe, on peut numéroter chaque arête avec 1, 2, ou 3, de façon que 
+chaque nœud, quand il calcule la somme des numéros sur les arêtes qui lui sont 
+adjacentes, obtienne un nombre différent de celui de ses voisins.</p>
 
-<h2 id="oliennes-apprentissage-et-algorithmes">Éoliennes, apprentissage et algorithmes</h2>
+<p>Un survey sur cette conjecture est disponible 
+<a href="https://arxiv.org/pdf/1211.5122.pdf">ici</a>.</p>
 
-<p>Lance Fortnow <a href="https://blog.computationalcomplexity.org/2019/01/machine-learning-and-wind-turbines.html">bloguait ce mois-ci</a>
-à propos des éoliennes et de l’apprentissage.</p>
+<h2 id="identit-de-vandermonde">Identité de Vandermonde</h2>
 
-<p>En un mot, les changements soudain de force et de direction du vent sont un 
-problème récurrent pour les éoliennes, et causent de nombreux dégats si ils ne 
-sont pas anticipés. Il est possible d’utiliser des simulations de mécaniques des 
-fluides, mais c’est plutôt lent, et la tendance est à l’utilisation de 
-l’apprentissage pour faire des prévisions rapides.</p>
+<p>L’ <a href="https://fr.wikipedia.org/wiki/Identit%C3%A9_de_Vandermonde">identité de Vandermonde</a>
+est la suivante :</p>
 
-<p>Ainsi, il existe une manière bien définie/comprise de procéder, mais l’on 
-préfère l’apprentissage pour sa rapidité. Cela m’a rappelé un 
-<a href="https://cstheory.stackexchange.com/questions/38095/if-machine-learning-techniques-keep-improving-whats-the-role-of-algorithmics-i">sujet sur stack exchange</a>
-qui posait la question suivante : les algorithmes seront-ils encore utiles dans 
-le futur (sachant que pour la majorité des problèmes que nous avons à résoudre, 
-nous n’avons pas besoin d’une solution parfaite, et le plus souvent nous ne 
-pouvons même pas mesurer la qualité de la solution) ? 
-Malheuresement la question n’a pas reçu beaucoup de réponses…</p>
+<script type="math/tex; mode=display">\binom{m+n}{r} = \sum_{k=0}^{r}\binom{m}{k} \binom{n}{r-k}.</script>
 
-<h2 id="au-del-du-pire-cas-et-complexit-fragile">Au-delà du pire cas et complexité fragile</h2>
-
-<p>Une nouvelle approche de recherche en informatique théorique consiste à aller 
-«au-delà de la complexité dans le pire cas» (<em>«beyond worst-case»</em>), 
-c’est-à-dire à considérer d’autres mesures d’efficacité que le temps de calcul 
-sur la pire instance, puisque cette dernière est parfois (souvent ?) peu 
-pertinente. Il y a beaucoup de bonnes choses à découvrir dans ce domaine, comme 
-la <a href="Analyse lisse d'algorithme">complexité lisse</a>. Voir aussi les
-<a href="http://timroughgarden.org/f14/l/top10.pdf">top 10 ideas</a> du domaine par 
-<a href="http://timroughgarden.org/">Tim Roughgarden</a>.</p>
-
-<p>Ce mois-ci, une nouvelle mesure est définie dans un 
-<a href="https://export.arxiv.org/abs/1901.02857">papier arxiv</a> : la
- complexité fragile. J’ai juste lu le résumé, et je ne comprends pas en quoi 
-cette mesure est fragile, mais je comprends la définition dans le cas du tri : 
-la complexité fragile d’un algorithme de tri sur une instance donnée est le 
-nombre maximum de fois qu’un élément est comparé.</p>
+<p>J’ai toujours pensé que ce n’était qu’un exercice, jusqu’à ce qu’elle 
+apparaisse naturellement dans un calcul (voir 
+<a href="https://arxiv.org/pdf/1812.09120.pdf">cet article</a>).</p>
 
 
   </div>

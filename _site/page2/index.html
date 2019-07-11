@@ -87,73 +87,171 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/notes-de-mars-2019">
-        Notes de mars
+      <a href="/notes-d-avril-mai-2019">
+        Notes d'avril et de mai
       </a>
     </h1>
 
-    <span class="post-date">10 Apr 2019</span>
+    <span class="post-date">11 Jun 2019</span>
 
-    <p>Notes de mars 2019.</p>
-
-<hr />
-<p><img src="assets/fleur.png" alt="" class="center-image" height="500px" /></p>
+    <p>Des notes pour avril et mai.</p>
 
 <hr />
+<p><img src="assets/potager.png" alt="" class="center-image" height="600px" /></p>
 
-<p>[Étant déjà en retard, je ne fais ce mois-ci 
-qu’une liste annotée de pointeurs 
-vers des contenus francophones. Voir la version anglophone 
-<a href="https://discrete-notes.github.io/march-2019-notes-1">ici</a> et 
-<a href="https://discrete-notes.github.io/march-2019-notes-2">là</a> pour plus de choses 
-scientifiques.]</p>
+<hr />
 
-<h2 id="architecture-et-nouveaux-langages-sur-interstices">Architecture et nouveaux langages, sur Interstices</h2>
+<h2 id="tipe-ocan">TIPE Océan</h2>
+<p>« Interstices » publie un 
+<a href="https://interstices.info/dossier/tipe-2019-2020-ocean/">dossier sur l’océan</a>, 
+le thème de 
+<a href="https://fr.wikipedia.org/wiki/Travail_d%27initiative_personnelle_encadr%C3%A9">TIPE</a> 
+de l’année à venir.
+Malheureusement, il n’y a pas grand chose qui utilise des maths discrètes ou de 
+l’algorithmique. Il est surtout question de modélisation, et quand des objets 
+discrets 
+apparaissent c’est plutôt sous forme de résolution numérique d’équations 
+discrétisées.
+De façon générale, je serais curieux de savoir si de l’algorithmique peut 
+être utile pour l’étude des océans, du climat etc.</p>
 
-<p><a href="https://interstices.info">Interstices</a> est une chouette plate-forme, que 
-j’oublie périodiquement, parce qu’elle n’est pas très très active.</p>
+<h2 id="des-graphes-dfinis-par-des-allumettes-des-centimes-et-des-articulations"> Des graphes définis par des allumettes, des centimes et des articulations</h2>
 
-<p>J’ai été re-jeter un coup d’œil récemment et j’ai lu avec intérêt deux billets :</p>
+<p>Voici trois classes de graphes que l’on peut décrire avec des objets du quotidien.</p>
 
-<ul>
-  <li><a href="https://interstices.info/pourquoi-creer-des-nouveaux-langages-de-programmation/">Pourquoi créer des nouveaux langages de programmation</a></li>
-  <li><a href="https://interstices.info/le-modele-darchitecture-de-von-neumann/">Le modèle d’architecture de Von Neumann</a></li>
-</ul>
+<p>Les <a href="https://fr.wikipedia.org/wiki/Graphe_allumette">graphes d’allumettes</a> sont 
+les graphes que l’on peut dessiner sur une table avec des allumettes.</p>
 
-<p>En lisant le second je suis tombé sur l’article wikipedia sur la 
-<a href="https://fr.wikipedia.org/wiki/M%C3%A9moire_%C3%A0_ligne_de_d%C3%A9lai">mémoire à ligne de délai</a>,
-l’un des premiers types de mémoire vive utilisé. 
-En gros, le principe de cette mémoire était de transformer le signal électrique en 
-signal acoustique, de le faire passer par un tube de mercure (ce qui prend un 
-petit moment), puis de le repasser en électrique de le ré-amplifier, et de le 
-refaire passer par tube etc. jusqu’à en avoir besoin.</p>
+<p><img src="assets/alumettes.png" alt="" class="center-image" height="300px" /></p>
 
-<p><img src="assets/mercure.png" alt="" class="center-image" height="400px" /></p>
+<p>Plus précisement, ce sont les graphes planaires et 
+<a href="https://fr.wikipedia.org/wiki/Graphe_distance-unit%C3%A9">distance-unités</a>, 
+c’est-à-dire les graphes qui peuvent être dessinés dans le plan avec des 
+arêtes (droites) de longueur 1. (« Graphe distance-unité » n’est pas un très bon 
+nom mais c’est celui utilisé par wikipedia, et je n’ai pas trouvé mieux.)</p>
 
-<p>L’idée vient d’une technologie utilisée dans les radars (voir l’article 
-wikipedia, dont le dessin est aussi inspiré).</p>
+<p>Ensuite, les graphes de centimes 
+(<a href="https://en.wikipedia.org/wiki/Penny_graph">penny graphs</a> en anglais) sont les 
+graphes qui représentent des centimes sur une table.</p>
 
-<h2 id="empreinte-carbone-de-la-recherche"> Empreinte carbone de la recherche</h2>
+<p><img src="assets/pennies.png" alt="" class="center-image" height="300px" /></p>
 
-<p>Le collectif 1point5 a publié <a href="https://www.lemonde.fr/sciences/article/2019/03/19/face-a-l-urgence-climatique-les-scientifiques-doivent-reduire-leur-impact-sur-l-environnement_5438048_1650684.html">une tribune</a> dans le Monde à propos de 
-l’impact climatique de la recherche. En très raccourci il s’agit d’un appel à 
-transformer la façon dont nous faisons de la recherche, pour ne pas trop 
-contribuer au réchauffement climatique. En informatique, j’imagine que cet 
-impact est surtout dû aux conférences. Pour preuve, l’histogramme suivant :</p>
+<p>Plus précisément, un graphe est un graphe de centimes si il est possible de 
+représenter 
+chaque sommet par un disque de rayon 1, et de placer les disques de manière à ce
+qu’ils ne se touchent qu’à la frontière, et que chaque contact représente une 
+arête.</p>
 
-<p><img src="assets/histogram-CO2.png" alt="" class="center-image" height="500px" /></p>
+<p>Les graphes de centimes sont des graphes d’allumettes, mais l’inverse n’est pas 
+vrai.</p>
 
-<h2 id="la-plus-grosse-cellule-dun-voronoi-sur-images-des-maths">La plus grosse cellule d’un Voronoi, sur Images des maths.</h2>
+<p>Enfin, considérons l’idée suivante. Prenons un graphe, et remplaçons 
+chaque arête par une tige et chaque nœud par une articulation.
+Alors, si en poussant dessus, cette structure change de forme, elle est dite 
+flexible, sinon elle est dites 
+<a href="https://fr.wikipedia.org/wiki/Rigidit%C3%A9_structurelle">rigide</a>.
+Par exemple un cube est flexible, mais un tétrahèdre est rigide.</p>
 
-<p>Ce mois-ci <a href="http://images.math.cnrs.fr/Une-version-de-la-conjecture-de-Kendall.html">Images des maths nous parle</a> 
-d’un résultat de géométrie aléatoire du plan.
-En terme simple: si on prend des points au hasard dans le plan, plus le nombre 
-de points augmente, plus la plus grosse cellule se rapproche d’un disque. 
-La proximité avec un disque se mesure par le rapport entre les rayons du plus 
-grand cercle contenu dans la cellule et du plus petit cercle contenant la cellule. 
-Voir le dessin ci-dessous.</p>
+<p><img src="assets/rigide.png" alt="" class="center-image" height="300px" /></p>
 
-<p><img src="assets/voronoi.png" alt="" class="center-image" height="400px" /></p>
+<h2 id="pagerank-et-billard"> Pagerank et billard</h2>
+
+<p>« Images des maths » publie 
+<a href="http://images.math.cnrs.fr/De-l-algorithme-de-Google-aux-billards-de-Sinai.html">un billet</a>
+à propos de <a href="https://fr.wikipedia.org/wiki/PageRank">PageRank</a>, et des 
+mathématiques des 
+<a href="https://fr.wikipedia.org/wiki/Billard_de_Sina%C3%AF">billards de Sinaï</a> 
+(en l’honneur de 
+<a href="https://fr.wikipedia.org/wiki/Viviane_Baladi">Viviane Baladi</a> qui a travaillé 
+sur le second sujet).</p>
+
+<p>Les deux objets ont en commun de traiter d’une trajectoire dans un espace.
+La base de l’algorithme PageRank consiste à visiter les pages Internet en 
+suivant au hasard les liens hypertextes. 
+Autrement dit, on fait une marche aléatoire sur le
+graphe des liens.
+Le billard de Sinaï est un billard carré, avec un obstacle rond au milieu, dans 
+lequel on lance une boule, qui roule sans frottement, 
+et a donc une trajectoire infinie.</p>
+
+<p><img src="assets/billard.png" alt="" class="center-image" height="300px" /></p>
+
+<p>Ces deux objets ont des propriétés similaires de « mélange ». Dans le billard de 
+Sinaï, si l’on lance un grand nombre de boules dans des directions légèrement 
+différentes, on arrivera rapidement à une distribution relativement uniforme des 
+boules sur le billard. 
+Dans PageRank, le 
+<a href="https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Perron-Frobenius">théorème de Perron-Frobenius</a>
+implique que rapidement, la marche aléatoire atteint une distribution 
+stationnaire : la probabilité d’être en train de visiter un certain nœud 
+converge.</p>
+
+<h2 id="timothygowers-sur-comment-faire-des-maths">Timothy Gowers sur comment faire des maths</h2>
+
+<p><a href="http://images.math.cnrs.fr/Revue-de-presse-avril-2019.html#readmore">La revue de presse</a>
+d’avril d’« Images des maths », pointent sur 
+<a href="https://smf.emath.fr/smf-dossiers-et-ressources/t-gowers-comment-decouvrir-une-demonstration-pourtant-longue-et-complexe">la vidéo d’un exposé</a>, 
+en français (!), de 
+<a href="https://fr.wikipedia.org/wiki/Timothy_Gowers">Timothy Gowers</a>, sur le thème 
+« comment découvrir une démonstration pourtant longue et complexe ».</p>
+
+<p>En quelques mots il s’agit de montrer différentes techniques utilisées pour 
+résoudre des problèmes : résoudre des cas particuliers, généraliser la question, 
+prendre une approche probabiliste, faire des analogies, etc.</p>
+
+<h2 id="non-reproductibilit-et-checs-non-publis">Non-reproductibilité et échecs non-publiés</h2>
+
+<p>Un <a href="https://www.nature.com/articles/d41586-019-01307-2?utm_source=twt_nnc&amp;utm_medium=social&amp;utm_campaign=naturenews&amp;sf211598052=1">article dans Nature</a> 
+liste les « quatre cavaliers de la non-reproductibilité ».
+L’un d’eux est le biais de publication: lorsque l’on recherche une corrélation, 
+et que l’on n’arrive pas à la mettre en évidence, on ne peut rien publier.
+Il y a deux problèmes principaux avec ce biais : (1) les chercheurs sont 
+encouragés à trouver des corrélations, plutôt qu’à trouver la vérité, et (2) 
+si l’on est dans un cas où il n’y a pas de corrélation dans la réalité, mais 
+que statistiquement on peut détecter une (fausse) corrélation dans 5% des cas, 
+alors en moyenne si 20 équipes font l’expérience, l’une d’elle détectera la 
+corrélation, publiera le résultats, et les autres resteront silencieuses sur leur
+absence de corrélation trouvée.</p>
+
+<p>Une initiative pour réduire ce biais est la notion de 
+« <a href="https://cos.io/rr/">registered report</a> ». Cela consiste pour le journal, a 
+évalué l’expérience elle-même (la méthode, le matériel, l’hypothèse) avant 
+qu’elle soit conduite. Si ce plan est accepté, alors on fait l’expérience, 
+l’article est écrit et publié (sous réserve d’être raisonnable), même si il ne 
+conclue pas à une corrélation.</p>
+
+<p>En informatique théorique, et en mathématiques en général, le biais de 
+publication n’est pas un problème central, puisque l’on peut vérifier les 
+preuves. Cependant, nous perdons sans doute beaucoup de temps à essayer des 
+approches déjà testées, puisque nous ne publions pas nos échecs.</p>
+
+<h2 id="avions-etc">Avions etc.</h2>
+
+<p>Quelques éléments supplémentaires pour poursuivre sur une 
+<a href="[note of last month](https://discrete-notes.github.io/march-2019-notes-2)">note du mois dernier</a>, 
+à propos des trajets pour aller en conférence et de leur impact environnemental.</p>
+
+<p>Un <a href="https://theconversation.com/chercheurs-donnez-lexemple-prenez-moins-lavion-110613">article de « The Conversation »</a>
+mentionne plusieurs alternatives aux modèles classiques des conférences.
+L’une d’elle est d’avoir des conférences purement virtuelles, comme 
+<a href="https://ehc.english.ucsb.edu/?page_id=12687">celle-ci</a>. Dans ce format, 
+personne ne bougent, tout est organisé avec des vidéos enregistrées et des 
+visio-conférences.
+Une autre alternative, moins drastique, est d’avoir une conférence réparties sur 
+plusieurs sites (par exemple un centre par continent), avec de fait un mélange 
+entre des interactions en personne et en visio-conférence.</p>
+
+<p>Au passage, rappelons qu’il existe un séminaire virtuel d’informatique 
+théorique : <a href="https://sites.google.com/site/plustcs/">TCS+</a>.</p>
+
+<p>Un autre point lié au même sujet : il est difficile de faire des efforts pour 
+réduire son impact, lorsque l’on est seul et que c’est un frein pour une 
+carrière. Peut-être qu’un type de charte au niveau d’une communauté ou d’une 
+institution pourrait aider. 
+Par exemple le journal danois « Politiken » 
+<a href="https://www.lemonde.fr/climat/article/2019/01/16/climat-plus-de-vols-interieurs-pour-les-journalistes-de-politiken_5409874_1652612.html?xtmc=politiken&amp;xtcr=5">a récemment mis en place une telle charte</a> : pas de vols intérieurs 
+pour les journalistes, moins de vols de manière générale, moins de pub pour des 
+destinations de vacances lointaines etc.</p>
 
 
   </div>

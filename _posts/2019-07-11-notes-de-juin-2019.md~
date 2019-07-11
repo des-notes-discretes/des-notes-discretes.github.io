@@ -1,0 +1,129 @@
+---
+layout: post
+title: Notes de juin
+redirect_from: "/2019/07/11/notes-de-juin-2019/"
+permalink: notes-de-juin-2019
+---
+
+Des notes pour juin 2019.
+
+--- 
+![](assets/rose.png){: .center-image height="500px"}
+<p align="center"><small><i>
+Roses de l'<a href="https://fr.wikipedia.org/wiki/Abbaye_Sainte-Marie_de_Fontfroide">abbaye de Fontfroide</a>,
+excursion de la <a href="https://www.irit.fr/algotel2019/index.html">conférence Algotel</a>.</i></small></p>
+---
+
+## Nombres commençant par 1
+
+En regardant des nombres issus de jeux de données, vous verrez peut-être le 
+phénomène suivant apparaître : les nombres commençant par 1 sont plus courants 
+que les autres. Cela parait complètement fantaisiste ou au mieux contre-intuitif. 
+
+*Images des maths* publie 
+[un billet](http://images.math.cnrs.fr/Quel-est-le-debut-de-ce-nombre.html)
+sur le sujet ce mois-ci, avec des infos sur les jeux de données qui satisfont 
+cette loi, plusieurs explications mathématiques, et une application à... la
+comptabilité. 
+
+## L'ellipsoïde de John et Loewner
+
+Un [article sur arxiv](https://arxiv.org/pdf/1905.11580.pdf) m'a fait découvrir
+l'ellipsoïde de John et Loewner. (En anglais Loewner n'est pas souvent cité, et on 
+dit *John ellispoid*.) Étant donné un polytope en $n$ dimensions, cet 
+ellipsoïde est celui de plus grand volume inclus dans le polytope. Il est unique. 
+Sur l'image ci-dessous, c'est l'ellipse rouge (plus ou moins).
+
+![](assets/john-ellipsoid.png){: .center-image height="250px"}
+
+Un propriété intéressante est que si l'on prend l'ellipsoïde de John et Loewner, 
+et qu'on le dilate d'un facteur $n$, on obtient un ellipsoïde qui peut contenir 
+le polytope de départ (en bleu sur l'image). 
+Je trouve le facteur $n$ difficile à visualiser, mais si l'on passe d'un triangle 
+et un tétraèdre de « même taille », on voit que la boule intérieure maximum 
+diminue en rayon et que la boule extérieur minimum augmente. 
+
+L'article sur arxiv présente un algorithme pour approcher l'ellipsoïde de John 
+et Loewner.
+
+(Avis au amateurs : l'ellispoïde de John et Loewner n'a pas encore d'article en 
+français sur wikipedia, bien qu'il semble être un sujet de 
+développement d'agreg classique.)
+
+## Statistiques non-paramétriques
+
+Je connais très peu de chose en stat. 
+Une division fondamentale semble être entre statistique paramétrique ou non. 
+Dans la variante paramétrique, on part d'une hypothèse du type « la fonction qui 
+va représenter l'ensemble de points est une gaussienne ». Et ensuite on cherche à 
+évaluer les paramètres de la fonction (e.g. la moyenne de la gaussienne).
+Dans la variante non paramétrique, on ne fait pas d'hypothèse, et on essaye 
+juste d'avoir une version lisse de l'histogramme des points qui satisfasse 
+certaines propriétés. L'idée est en gros de représenter chaque point par une 
+fonction lisse et d'additionner toutes ces fonctions. 
+
+Pour en savoir, voir 
+[cet article](http://images.math.cnrs.fr/Qu-est-ce-que-l-estimation-non-parametrique.html)
+sur *Image des maths*. 
+
+## Exposés enregistrés et collaborations à distance
+
+Pour continuer sur le sujet des conférences virtuelles abordé le mois dernier, 
+une question centrale est : est-ce que ça peut vraiment marcher ?
+
+Je dois admettre que, bien qu'étant enthousiaste sur l'idée, j'ai des 
+difficultés à suivre les exposés vidéos, et je ne suis pas toujours à l'aise lors
+des appels vidéos. 
+J'ai essayé de lister quelques explications à ces difficultés :
+
+* dans un exposé vidéo, on peut s'échapper, aller prendre un café, vérifier sa 
+boite mail. Ces alternatives rendent plus difficile la concentration. 
+* les exposés ou appels vidéos sont moins immersifs : le son est mauvais, l'image
+occupe une petite partie du champs visuel, et on n'a pas l'impression de « faire 
+partie d'un événement ». 
+* une conséquence du point précédent : les appels vidéos peuvent être inconfortable
+d'un point de vue social. Par exemple dans une vraie rencontre, les longs silences 
+de réflexion sont courants, alors qu'en visio, ces silences sont rapidement 
+bizarres, et on a tendance à arrêter l'appel. 
+* Une autre limitation technique, est que les vidéos sont souvent très statiques.
+Pour les exposés, le format classique consiste à avoir le transparent en plein 
+écran, avec une vignette pour le visage de l'orateur, ce qui bouge très peu : le 
+transparent change une fois par minute, et l'on ne peut pas voir les mouvements 
+de l'orateur.
+* lié au point précédent : je ne connais pas de bonne manière de partager un 
+dessin, pour reproduire le tableau, ce qui est frustrant. 
+
+Certains de ces problèmes sont résolus par certaines plate-formes. 
+Par exemple [TCS+](https://sites.google.com/site/plustcs/) est un séminaire en 
+ligne où l'orateur n'enregistre pas sa vidéo « seul » : le format consiste en une
+visio-conférence avec une douzaine de sites, dont celui de la personne qui 
+donne l'exposé. (Les exposés sont tout de même enregistrés, et on peut les 
+regarder sur le site, mais ce n'est pas le but premier.)
+Ainsi, l'exposé est un événement, et si vous avez un système audiovisuel au point, 
+c'est peut être assez immersif. (Je n'ai jamais participé en vrai, j'ai juste vu 
+les vidéos.) 
+
+Certaines personnes ont des avis complètement opposés au mien et préfèrent les 
+exposés enregistrés, pour leur coté « hors ligne » : on peut arrêter, réfléchir, 
+vérifier une référence, sauter une partie etc. 
+Enfin, bien sûr la qualité de l'exposé dépend beaucoup de l'orateur, que ce soit 
+en vidéo ou en personne.
+
+Si vous connaissez de bonnes alternatives à skype (idéalement open-source, avec 
+une possibilité de dessin partagé, et multi-utilisateurs), envoyez-moi un mail. 
+Ça sera utile non seulement à moi-même mais à d'autres : 
+je m'engage timidement dans le collectif 
+[Labos 1point5](https://labos1point5.org) (dont il a déjà été question ici) 
+pour regarder un peu les aspects techniques des vidéo-conférences. 
+
+## Exposé de fin d'année à l'IRIF
+
+Je n'ai pas pu assister aux exposés de fin d'année de l'IRIF (mon labo de thèse), 
+mais les supports des exposés sont en ligne est sont très intéressants :
+
+* [Informatique et environement](https://www.irif.fr/_media/rencontres/irif/informatique_et_de_veloppement_soutenable_irif.pdf)
+par Emmanuelle Frenoux, et
+* [A quoi peut servir un GT égalité f/h ?](https://www.irif.fr/_media/rencontres/irif/parite_irif.pdf)
+par Anne Siegel.
+
+
