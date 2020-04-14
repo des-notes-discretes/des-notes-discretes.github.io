@@ -7,7 +7,7 @@ permalink: notes-de-decembre-2018
 
 Quelques notes de décembre avec un peu de retard. Bonne année !
 
-![](assets/etoile.png){: .center-image height="500px"}
+![](assets/etoile.png){: .center-image width="80%"}
 
 ---
 

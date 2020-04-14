@@ -8,7 +8,7 @@ permalink: notes-d-avril-mai-2019
 Des notes pour avril et mai. 
 
 --- 
-![](assets/potager.png){: .center-image height="600px"}
+![](assets/potager.png){: .center-image width="100%"}
 
 ---
 
@@ -65,7 +65,7 @@ Par exemple un cube est flexible, mais un tétrahèdre est rigide.
 
 ![](assets/rigide.png){: .center-image height="300px"}
 
-## Pagerank et billard
+## Pagerank et billard
 
 « Images des maths » publie 
 [un billet](http://images.math.cnrs.fr/De-l-algorithme-de-Google-aux-billards-de-Sinai.html)

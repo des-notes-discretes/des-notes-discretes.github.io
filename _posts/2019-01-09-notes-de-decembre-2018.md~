@@ -103,8 +103,7 @@ paramètre : `\\[3 cm]`.
 * On peut changer l'espace entre les items d'une liste en utilisant `itemsep`. 
 Par exemple: `\setlength\itemsep{1em}` juste après un `\begin{itemize}`.
 
-## Distance de jaccard
-
+## Distance de Jaccard
 Lipton et Regan parle de la 
 [distance de Jaccard](https://fr.wikipedia.org/wiki/Indice_et_distance_de_Jaccard) 
 (et de pourquoi c'est une métrique) dans
