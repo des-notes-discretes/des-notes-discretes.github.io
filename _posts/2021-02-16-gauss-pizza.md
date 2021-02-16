@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Un théorème de Gauss pour tenir une part de pizza
-redirect_from: "/2021/02/12/gauss-pizza/"
+redirect_from: "/2021/02/16/gauss-pizza/"
 permalink: gauss-pizza
 ---
 
