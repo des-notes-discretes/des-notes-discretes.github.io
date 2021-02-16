@@ -48,7 +48,7 @@ Plus précisément, en tout point de la surface on peut définir un plan tangent
 et l'on peut alors choisir deux autres plans, tels qu'ils soient tous les trois 
 orthogonaux. 
 
-![](assets/courbes-plans.jpg){: .center-image width="70%"}
+![](assets/courbes-plans.png){: .center-image width="70%"}
 
 Ces deux plans définissent deux courbes, que l'on peut orienter de manière 
 canonique. Il se trouve que si l'on fait tourner cette paire de plans 
@@ -59,13 +59,13 @@ Ce sont les
 Sur mon premier dessin ce n'est pas très explicite, mais voilà un cas où l'on 
 comprend bien ce qui se passe. 
 
-![](assets/courbures-principales.jpg){: .center-image width="70%"}
+![](assets/courbures-principales.png){: .center-image width="70%"}
 
 La courbure de Gauss en un point est le produit de ses courbures principales. 
 Le signe de la courbure donne déjà une idée de la forme de la surface en ce 
 point, comme sur l'image ci-dessous. 
 
-![](assets/trois-courbures.jpg){: .center-image width="70%"}
+![](assets/trois-courbures.png){: .center-image width="70%"}
 
 Maintenant que l'on a tous les ingrédients du théorème, il est temps de passer 
 aux pizzas. 
