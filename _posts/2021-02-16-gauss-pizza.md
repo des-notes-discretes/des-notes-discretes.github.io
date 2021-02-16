@@ -3,6 +3,7 @@ layout: post
 title: Un théorème de Gauss pour tenir une part de pizza
 redirect_from: "/2021/02/12/gauss-pizza/"
 permalink: gauss-pizza
+---
 
 J'ai laissé ce blog de coté pendant un moment. Voici une histoire de géométrie 
 et de pizza, pour se remettre aux fourneaux. C'est aussi l'occasion d'essuyer les 
