@@ -10,7 +10,7 @@ et de pizza, pour se remettre aux fourneaux. C'est aussi l'occasion d'essuyer le
 plâtres avec ma nouvelle tablette graphique. (Je referai les dessins plus tard, 
 quand je l'aurai mieux en main.)
 
-![](assets/pizza.png){: .center-image width="70%"}
+![](../assets/pizza.png){: .center-image width="70%"}
 <p align="center"><small><i>
 Une part de pizza dans plusieurs positions.
 </i></small></p>
@@ -39,7 +39,7 @@ D'abord, la courbure d'une courbe orientée se définit de façon naturelle avec
 rayon $r$ d'un disque osculateur : $1/r$ si la courbe tourne à gauche et $-1/r$ 
 si la courbe tourne à droite.
 
-![](assets/courbure.png){: .center-image width="70%"}
+![](../assets/courbure.png){: .center-image width="70%"}
 
 Ensuite pour une surface, on peut se ramener à une courbe en intersectant avec un 
 plan. 
@@ -48,7 +48,7 @@ Plus précisément, en tout point de la surface on peut définir un plan tangent
 et l'on peut alors choisir deux autres plans, tels qu'ils soient tous les trois 
 orthogonaux. 
 
-![](assets/courbes-plans.png){: .center-image width="70%"}
+![](../assets/courbes-plans.png){: .center-image width="70%"}
 
 Ces deux plans définissent deux courbes, que l'on peut orienter de manière 
 canonique. Il se trouve que si l'on fait tourner cette paire de plans 
@@ -59,13 +59,13 @@ Ce sont les
 Sur mon premier dessin ce n'est pas très explicite, mais voilà un cas où l'on 
 comprend bien ce qui se passe. 
 
-![](assets/courbures-principales.png){: .center-image width="70%"}
+![](../assets/courbures-principales.png){: .center-image width="70%"}
 
 La courbure de Gauss en un point est le produit de ses courbures principales. 
 Le signe de la courbure donne déjà une idée de la forme de la surface en ce 
 point, comme sur l'image ci-dessous. 
 
-![](assets/trois-courbures.png){: .center-image width="70%"}
+![](../assets/trois-courbures.png){: .center-image width="70%"}
 
 Maintenant que l'on a tous les ingrédients du théorème, il est temps de passer 
 aux pizzas. 
@@ -84,6 +84,6 @@ pizza s'affaissent (comme dans l'image du milieu)
 
 Et on finit avec un dessert.
 
-![](assets/donut.png){: .center-image width="70%"}
+![](../assets/donut.png){: .center-image width="70%"}
 
 

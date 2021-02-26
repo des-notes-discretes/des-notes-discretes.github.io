@@ -9,7 +9,7 @@ Notes de février 2019.
 
 ---
 
-![](assets/moulin.png){: .center-image width="60%"}
+![](../assets/moulin.png){: .center-image width="60%"}
 
 ---
 

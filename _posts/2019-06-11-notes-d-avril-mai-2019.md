@@ -8,7 +8,7 @@ permalink: notes-d-avril-mai-2019
 Des notes pour avril et mai. 
 
 --- 
-![](assets/potager.png){: .center-image width="100%"}
+![](../assets/potager.png){: .center-image width="100%"}
 
 ---
 
@@ -33,7 +33,7 @@ Voici trois classes de graphes que l'on peut décrire avec des objets du quotidi
 Les [graphes d'allumettes](https://fr.wikipedia.org/wiki/Graphe_allumette) sont 
 les graphes que l'on peut dessiner sur une table avec des allumettes. 
 
-![](assets/alumettes.png){: .center-image height="300px"}
+![](../assets/alumettes.png){: .center-image height="300px"}
 
 Plus précisement, ce sont les graphes planaires et 
 [distance-unités](https://fr.wikipedia.org/wiki/Graphe_distance-unit%C3%A9), 
@@ -45,7 +45,7 @@ Ensuite, les graphes de centimes
 ([penny graphs](https://en.wikipedia.org/wiki/Penny_graph) en anglais) sont les 
 graphes qui représentent des centimes sur une table.
 
-![](assets/pennies.png){: .center-image height="300px"}
+![](../assets/pennies.png){: .center-image height="300px"}
 
 Plus précisément, un graphe est un graphe de centimes si il est possible de 
 représenter 
@@ -63,7 +63,7 @@ flexible, sinon elle est dites
 [rigide](https://fr.wikipedia.org/wiki/Rigidit%C3%A9_structurelle).
 Par exemple un cube est flexible, mais un tétrahèdre est rigide.
 
-![](assets/rigide.png){: .center-image height="300px"}
+![](../assets/rigide.png){: .center-image height="300px"}
 
 ## Pagerank et billard
 
@@ -85,7 +85,7 @@ Le billard de Sinaï est un billard carré, avec un obstacle rond au milieu, dan
 lequel on lance une boule, qui roule sans frottement, 
 et a donc une trajectoire infinie.
 
-![](assets/billard.png){: .center-image height="300px"}
+![](../assets/billard.png){: .center-image height="300px"}
 
 Ces deux objets ont des propriétés similaires de « mélange ». Dans le billard de 
 Sinaï, si l'on lance un grand nombre de boules dans des directions légèrement 

@@ -9,7 +9,7 @@ Quelques notes de janvier.
 
 ---
 
-![](assets/ciel.png){: .center-image width="85%"}
+![](../assets/ciel.png){: .center-image width="85%"}
 
 ---
 
